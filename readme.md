@@ -12,3 +12,8 @@
 
 ### Criando projeto de pedidos e promoção
 
+  Criando um projeto e demonstrando a forma RAD de desenvolvimento com as implementações todas dentro do componente.
+
+### Usando Interface para trabalhar validações de regras
+
+  Utilizando o projeto e criando uma interface.
