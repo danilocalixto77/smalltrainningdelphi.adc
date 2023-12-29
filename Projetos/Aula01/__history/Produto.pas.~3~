@@ -1,0 +1,19 @@
+unit Produto;
+
+interface
+
+uses
+  Produto.Interfaces;
+
+type
+    TProduto = class(TInterfacedObject, iProduto)
+      private
+      public
+        constructor Create;
+        destructor Destroy; override;
+        class function New : iProduto;
+    end;
+
+implementation
+
+end.
