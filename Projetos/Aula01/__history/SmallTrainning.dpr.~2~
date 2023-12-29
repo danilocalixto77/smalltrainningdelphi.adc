@@ -2,7 +2,7 @@ program SmallTrainning;
 
 uses
   Vcl.Forms,
-  Form.Principal in 'Form.Principal.pas' {Form1},
+  Unit1 in 'Unit1.pas' {Form1},
   Produto.Interfaces in 'Produto.Interfaces.pas',
   Produto in 'Produto.pas';
 
