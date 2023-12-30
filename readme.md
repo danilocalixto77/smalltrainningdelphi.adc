@@ -16,7 +16,7 @@
 
 ### Usando Interface para trabalhar validações de regras
 
-  Utilizando o projeto e criando uma interface.
+  Utilizando o projeto já criáo e refatorando a funcionalidade demonstrada no modo RAD, criando uma interface.
   
   Criação da Interface: Produto.Interfaces.pas
   
