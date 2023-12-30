@@ -23,4 +23,7 @@
   Criação da Classe: Produto.pas
 
 ---
-### Proximo Capítulo.
+
+### Atalhos Dephi
+
+  **Ctrl + Shift + G** logo abaixo de uma declaração de uma interface gera a assinatura da interface.

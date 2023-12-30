@@ -2,7 +2,7 @@ program SmallTrainning;
 
 uses
   Vcl.Forms,
-  Form.Principal in 'Form.Principal.pas' {FormPrincipal},
+  Form.Principal in 'Form.Principal.pas' {Form1},
   Produto.Interfaces in 'Produto.Interfaces.pas',
   Produto in 'Produto.pas';
 
@@ -11,6 +11,6 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TFormPrincipal, FormPrincipal);
+  Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.
