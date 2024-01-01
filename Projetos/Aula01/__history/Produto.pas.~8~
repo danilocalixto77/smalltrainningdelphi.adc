@@ -8,8 +8,8 @@ uses
 type
   TProduto = class(TInterfacedObject, iProduto)
     private
-      FValor        : Currency;
-      FRegraFiscal  : TRegrasFiscais;
+      FValor : Currency;
+      FRegraFiscal : TRegrasFiscais;
     public
       constructor Create;
       destructor Destroy; override;
