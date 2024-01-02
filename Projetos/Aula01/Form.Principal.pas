@@ -37,7 +37,7 @@ begin
       TProduto
         .New
           .Valor(Edit1.Text)
-          .Regra(TRegrasFiscais(ComboBox1.ItemIndex))
+          .Regra(ComboBox1.ItemIndex)
           .Total
     )
   )

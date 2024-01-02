@@ -24,14 +24,13 @@
 
 ### Eliminando casting na view
 
-  Exeplicação do padrão de projeto Fluente.
+  Exemplicação do padrão de projeto Fluente.
 
   Programação funcional.
 
   Exemplo de polimorfismo com a reescrita do método para trabalhar o cast em strings.
 
   **IF** imutável, é o tipo em que se aplica a utilização de ifs.
-
 
 ### Atalhos Dephi
 

@@ -16,7 +16,8 @@ type
       class function New : iProduto;
       function Valor (aValue : Currency ) : iProduto; overload;
       function Valor (aValue : String) : iProduto; overload;
-      function Regra (aValue : TRegrasFiscais ) : iProduto;
+      function Regra (aValue : TRegrasFiscais ) : iProduto; overload;
+      function Regra (aValue : Integer ) : iProduto; overload;
       function Total : Currency;
   end;
 
@@ -41,6 +42,11 @@ end;
 class function TProduto.New: iProduto;
 begin
   Result := Self.Create;
+end;
+
+function TProduto.Regra(aValue: Integer): iProduto;
+begin
+
 end;
 
 function TProduto.Regra(aValue: TRegrasFiscais): iProduto;
