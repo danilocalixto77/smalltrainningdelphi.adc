@@ -32,6 +32,11 @@
 
   **IF** imutável, é o tipo em que se aplica a utilização de ifs.
 
+
+### Validando e dando foco no componente visual
+
+  Desenvolvido um método com um esboço de como setar o focus em um componente após exception.
+
 ### Atalhos Dephi
 
   **Ctrl + Shift + G** Gera assinatura de uma interface. Procedimento: ir logo abaixo de uma declaração de uma interface e pressionar o conjunto de teclas simultaneamente.

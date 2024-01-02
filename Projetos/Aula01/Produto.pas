@@ -3,11 +3,12 @@ unit Produto;
 interface
 
 uses
-  Produto.Interfaces;
+  Produto.Interfaces, Vcl.Forms;
 
 type
   TProduto = class(TInterfacedObject, iProduto)
     private
+      FBind         : TForm;
       FValor        : Currency;
       FRegraFiscal  : TRegrasFiscais;
     public
@@ -18,15 +19,22 @@ type
       function Valor (aValue : String) : iProduto; overload;
       function Regra (aValue : TRegrasFiscais ) : iProduto; overload;
       function Regra (aValue : Integer ) : iProduto; overload;
+      function Bind (aValue : TForm) : iProduto;
       function Total : Currency;
   end;
 
 implementation
 
 uses
-  System.SysUtils;
+  System.SysUtils, System.Classes, Vcl.StdCtrls;
 
 { TProduto }
+
+function TProduto.Bind(aValue: TForm): iProduto;
+begin
+  Result := Self;
+  FBind := aValue;
+end;
 
 constructor TProduto.Create;
 begin
@@ -46,7 +54,8 @@ end;
 
 function TProduto.Regra(aValue: Integer): iProduto;
 begin
-
+  Result := Self;
+  FRegraFiscal := TRegrasFiscais(aValue);
 end;
 
 function TProduto.Regra(aValue: TRegrasFiscais): iProduto;
@@ -66,12 +75,21 @@ begin
 end;
 
 function TProduto.Valor(aValue: String): iProduto;
+var
+  aComponent : TComponent;
 begin
   Result := Self;
   FValor := StrToCurr(aValue);
 
   if FValor <= 0 then
+  begin
+    aComponent := FBind.FindComponent('edtValor');
+    if Assigned(aComponent) then
+      if aComponent is TEdit then
+        TEdit(aComponent).SetFocus;
     raise Exception.Create('O valor não pode ser menor ou igual a zero.');
+  end;
+
 end;
 
 function TProduto.Valor(aValue: Currency): iProduto;

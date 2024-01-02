@@ -24,7 +24,7 @@ object FormPrincipal: TFormPrincipal
       'SimplesNacional'
       'LucroReal')
   end
-  object Edit1: TEdit
+  object edtValor: TEdit
     Left = 120
     Top = 152
     Width = 145

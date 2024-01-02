@@ -1,0 +1,55 @@
+unit Form.Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFormPrincipal = class(TForm)
+    ComboBox1: TComboBox;
+    Edit1: TEdit;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPrincipal: TFormPrincipal;
+
+implementation
+
+uses
+  Produto, Produto.Interfaces;
+
+{$R *.dfm}
+
+procedure TFormPrincipal.Button1Click(Sender: TObject);
+begin
+
+  ShowMessage(
+    CurrToStr(
+      TProduto
+        .New
+          .Valor(Edit1.Text)
+          .Regra(ComboBox1.ItemIndex)
+          .Total
+    )
+  )
+
+end;
+
+procedure TFormPrincipal.FormCreate(Sender: TObject);
+begin
+  ReportMemoryLeaksOnShutdown := True;
+end;
+
+end.
+
+
+

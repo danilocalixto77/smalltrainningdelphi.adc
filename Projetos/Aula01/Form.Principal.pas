@@ -9,7 +9,7 @@ uses
 type
   TFormPrincipal = class(TForm)
     ComboBox1: TComboBox;
-    Edit1: TEdit;
+    edtValor: TEdit;
     Button1: TButton;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -36,7 +36,8 @@ begin
     CurrToStr(
       TProduto
         .New
-          .Valor(Edit1.Text)
+          .Bind(Self)
+          .Valor(edtValor.Text)
           .Regra(ComboBox1.ItemIndex)
           .Total
     )
