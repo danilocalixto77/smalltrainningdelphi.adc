@@ -5,7 +5,7 @@ uses
   Form.Principal in 'Form.Principal.pas' {FormPrincipal},
   Produto.Interfaces in 'Produto.Interfaces.pas',
   Produto in 'Produto.pas',
-  Produto.Helper in 'Produto.Helper.pas';
+  Produto.Helpers in 'Produto.Helpers.pas';
 
 {$R *.res}
 

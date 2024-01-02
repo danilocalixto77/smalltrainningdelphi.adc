@@ -45,7 +45,7 @@
   
   Para o exemplo em questão o TComboBox.
 
-
+  Adicionado comportamento no componente de acordo com o que for preenchido no Enum.
 
 ### Atalhos Dephi
 
