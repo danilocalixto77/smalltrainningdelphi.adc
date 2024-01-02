@@ -14,12 +14,16 @@ type
       constructor Create;
       destructor Destroy; override;
       class function New : iProduto;
-      function Valor (aValue : Currency ) : iProduto;
+      function Valor (aValue : Currency ) : iProduto; overload;
+      function Valor (aValue : String) : iProduto; overload;
       function Regra (aValue : TRegrasFiscais ) : iProduto;
       function Total : Currency;
   end;
 
 implementation
+
+uses
+  System.SysUtils;
 
 { TProduto }
 
@@ -53,6 +57,15 @@ begin
     LucroReal: Result := FValor + (FValor * 0.4);
   end;
 
+end;
+
+function TProduto.Valor(aValue: String): iProduto;
+begin
+  Result := Self;
+  FValor := StrToCurr(aValue);
+
+  if FValor <= 0 then
+    raise Exception.Create('O valor não pode ser menor ou igual a zero.');
 end;
 
 function TProduto.Valor(aValue: Currency): iProduto;

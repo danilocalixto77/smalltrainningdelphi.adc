@@ -7,7 +7,8 @@ interface
 
     iProduto = interface
       ['{96184445-BAB1-4A41-8032-5045C7ACFED3}']
-      function Valor (aValue : Currency ) : iProduto;
+      function Valor (aValue : Currency ) : iProduto; overload;
+      function Valor (aValue : String) : iProduto; overload;
       function Regra (aValue : TRegrasFiscais ) : iProduto;
       function Total : Currency;
     end;

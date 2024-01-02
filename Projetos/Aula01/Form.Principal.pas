@@ -36,7 +36,7 @@ begin
     CurrToStr(
       TProduto
         .New
-          .Valor(StrToCurr(Edit1.Text))
+          .Valor(Edit1.Text)
           .Regra(TRegrasFiscais(ComboBox1.ItemIndex))
           .Total
     )
