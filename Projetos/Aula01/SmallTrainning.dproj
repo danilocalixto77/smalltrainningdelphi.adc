@@ -104,6 +104,7 @@
         </DCCReference>
         <DCCReference Include="Produto.Interfaces.pas"/>
         <DCCReference Include="Produto.pas"/>
+        <DCCReference Include="Produto.Helper.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

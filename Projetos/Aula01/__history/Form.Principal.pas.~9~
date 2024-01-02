@@ -34,8 +34,6 @@ begin
 
   ShowMessage(
     CurrToStr(
-
-
       TProduto
         .New
           .Bind(Self)

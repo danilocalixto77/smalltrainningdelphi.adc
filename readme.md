@@ -37,6 +37,16 @@
 
   Desenvolvido um método com um esboço de como setar o focus em um componente após exception.
 
+### Centralizando regras fiscais com helpers
+
+  Utilizando o: Helper
+
+  O Helper permite que seja implementado funcionalidades a mais, dentro de componentes já existentes no Delphi. 
+  
+  Para o exemplo em questão o TComboBox.
+
+
+
 ### Atalhos Dephi
 
   **Ctrl + Shift + G** Gera assinatura de uma interface. Procedimento: ir logo abaixo de uma declaração de uma interface e pressionar o conjunto de teclas simultaneamente.
