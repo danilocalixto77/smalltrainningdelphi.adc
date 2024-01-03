@@ -15,6 +15,7 @@ type
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
+    procedure ExibirResultado ( aValue : String);
   public
     { Public declarations }
   end;
@@ -31,20 +32,18 @@ uses
 
 procedure TFormPrincipal.Button1Click(Sender: TObject);
 begin
+  TProduto
+    .New
+      .Bind(Self)
+      .Valor(edtValor.Text)
+      .Regra(ComboBox1.ItemIndex)
+      .Display(ExibirResultado)
+      .Total
+end;
 
-  ShowMessage(
-    CurrToStr(
-
-
-      TProduto
-        .New
-          .Bind(Self)
-          .Valor(edtValor.Text)
-          .Regra(ComboBox1.ItemIndex)
-          .Total
-    )
-  )
-
+procedure TFormPrincipal.ExibirResultado(aValue: String);
+begin
+  ShowMessage(aValue);
 end;
 
 procedure TFormPrincipal.FormCreate(Sender: TObject);

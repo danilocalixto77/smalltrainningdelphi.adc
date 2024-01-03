@@ -47,6 +47,12 @@
 
   Adicionado comportamento no componente de acordo com o que for preenchido no Enum.
 
+### Utilizando eventos para exibir mensagem na tela
+
+  Criando function utilizando TProc<>
+
+  TProc<> é um método anônimo.
+
 ### Atalhos Dephi
 
   **Ctrl + Shift + G** Gera assinatura de uma interface. Procedimento: ir logo abaixo de uma declaração de uma interface e pressionar o conjunto de teclas simultaneamente.

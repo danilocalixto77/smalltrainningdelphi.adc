@@ -3,7 +3,7 @@ unit Produto;
 interface
 
 uses
-  Produto.Interfaces, Vcl.Forms;
+  Produto.Interfaces, Vcl.Forms, System.SysUtils;
 
 type
   TProduto = class(TInterfacedObject, iProduto)
@@ -11,6 +11,7 @@ type
       FBind         : TForm;
       FValor        : Currency;
       FRegraFiscal  : TRegrasFiscais;
+      FDisplay      : TProc<String>;
     public
       constructor Create;
       destructor Destroy; override;
@@ -20,13 +21,14 @@ type
       function Regra (aValue : TRegrasFiscais ) : iProduto; overload;
       function Regra (aValue : Integer ) : iProduto; overload;
       function Bind (aValue : TForm) : iProduto;
+      function Display ( aValue : TProc<String>) : iProduto;
       function Total : Currency;
   end;
 
 implementation
 
 uses
-  System.SysUtils, System.Classes, Vcl.StdCtrls;
+  System.Classes, Vcl.StdCtrls;
 
 { TProduto }
 
@@ -45,6 +47,12 @@ destructor TProduto.Destroy;
 begin
 
   inherited;
+end;
+
+function TProduto.Display(aValue: TProc<String>): iProduto;
+begin
+  Result := Self;
+  FDisplay := aValue;
 end;
 
 class function TProduto.New: iProduto;
@@ -66,12 +74,14 @@ end;
 
 function TProduto.Total: Currency;
 begin
-
+  Result := 0;
   case FRegraFiscal of
     SimplesNacional: Result := FValor + (FValor * 0.1);
     LucroReal: Result := FValor + (FValor * 0.4);
   end;
 
+  if Assigned(FDisplay) then
+    FDisplay(CurrToStr(Result));
 end;
 
 function TProduto.Valor(aValue: String): iProduto;

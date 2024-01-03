@@ -3,7 +3,7 @@ unit Produto.Interfaces;
 interface
 
 uses
-  Vcl.Forms;
+  Vcl.Forms, System.SysUtils;
   type
 
     TRegrasFiscais = (SimplesNacional, LucroReal);
@@ -15,6 +15,7 @@ uses
       function Valor (aValue : String) : iProduto; overload;
       function Regra (aValue : TRegrasFiscais ) : iProduto; overload;
       function Regra (aValue : Integer ) : iProduto; overload;
+      function Display ( aValue : TProc<String>) : iProduto;
       function Total : Currency;
     end;
 
