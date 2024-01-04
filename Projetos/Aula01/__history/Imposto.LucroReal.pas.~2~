@@ -1,0 +1,10 @@
+unit Imposto.LucroReal;
+
+interface
+
+type
+  TLucroReal = class(
+
+implementation
+
+end.

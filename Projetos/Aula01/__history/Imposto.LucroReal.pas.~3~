@@ -1,0 +1,15 @@
+unit Imposto.LucroReal;
+
+interface
+
+uses
+  Produto.Interfaces;
+
+type
+  TLucroReal = class(TInterfacedObject, iImposto)
+
+  end;
+
+implementation
+
+end.

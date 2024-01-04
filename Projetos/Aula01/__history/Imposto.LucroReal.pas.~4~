@@ -21,7 +21,7 @@ implementation
 
 function TLucroReal.Calculo(aValue: Currency): Currency;
 begin
-  Result := aValue + (aValue * 0.4);
+
 end;
 
 constructor TLucroReal.Create;

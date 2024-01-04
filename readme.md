@@ -60,10 +60,8 @@
   Criação das classes de impostos:
   SimplesNacional e LucroReal
 
-  Criação de CodeTemplate
-
-  ...
-
+  Criação de CodeTemplate. Para criação as explicações estão nesta aula. 
+  
 
 ### Atalhos Dephi
 
