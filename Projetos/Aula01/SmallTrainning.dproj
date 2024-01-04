@@ -105,6 +105,8 @@
         <DCCReference Include="Produto.Interfaces.pas"/>
         <DCCReference Include="Produto.pas"/>
         <DCCReference Include="Produto.Helpers.pas"/>
+        <DCCReference Include="Imposto.SimplesNacional.pas"/>
+        <DCCReference Include="Imposto.LucroReal.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

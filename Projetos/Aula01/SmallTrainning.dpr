@@ -5,7 +5,9 @@ uses
   Form.Principal in 'Form.Principal.pas' {FormPrincipal},
   Produto.Interfaces in 'Produto.Interfaces.pas',
   Produto in 'Produto.pas',
-  Produto.Helpers in 'Produto.Helpers.pas';
+  Produto.Helpers in 'Produto.Helpers.pas',
+  Imposto.SimplesNacional in 'Imposto.SimplesNacional.pas',
+  Imposto.LucroReal in 'Imposto.LucroReal.pas';
 
 {$R *.res}
 

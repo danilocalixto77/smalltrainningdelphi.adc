@@ -53,6 +53,18 @@
 
   TProc<> é um método anônimo.
 
+### Especializando a classe de regras fiscais
+
+  Especialização da classe Produto
+
+  Criação das classes de impostos:
+  SimplesNacional e LucroReal
+
+  Criação de CodeTemplate
+
+  ...
+
+
 ### Atalhos Dephi
 
   **Ctrl + Shift + G** Gera assinatura de uma interface. Procedimento: ir logo abaixo de uma declaração de uma interface e pressionar o conjunto de teclas simultaneamente.

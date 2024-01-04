@@ -19,6 +19,11 @@ uses
       function Total : Currency;
     end;
 
+    iImposto = Interface
+      ['{06E04DD0-C0BB-4BCC-9A60-9572687B6A66}']
+      function Calculo( aValue : Currency ) : Currency;
+    End;
+
 implementation
 
 end.
