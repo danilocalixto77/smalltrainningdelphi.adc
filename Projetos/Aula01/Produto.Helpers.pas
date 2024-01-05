@@ -13,10 +13,14 @@ type
   procedure RegrasFiscais;
   end;
 
+  THelperRegrasFiscais = record Helper for TRegrasFiscais
+    function This : iImposto;
+  end;
+
 implementation
 
 uses
-  System.TypInfo;
+  System.TypInfo, Imposto.SimplesNacional, Imposto.LucroReal;
 
 {THelperEnumToCombo}
 
@@ -30,6 +34,16 @@ begin
   for i := Ord(Low(TRegrasFiscais)) to Ord(High(TRegrasFiscais)) do
     Self.Items.Add(GetEnumName(TypeInfo(TRegrasFiscais), i));
 
+end;
+
+{ THelperRegrasFiscais }
+
+function THelperRegrasFiscais.This: iImposto;
+begin
+  case Self of
+    SimplesNacional: Result := TSimplesNacional.New;
+    LucroReal: Result := TLucroReal.New;
+  end;
 end;
 
 end.

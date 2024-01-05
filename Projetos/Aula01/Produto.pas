@@ -3,7 +3,7 @@ unit Produto;
 interface
 
 uses
-  Produto.Interfaces, Vcl.Forms, System.SysUtils;
+  Produto.Interfaces, Vcl.Forms, System.SysUtils, Produto.Helpers;
 
 type
   TProduto = class(TInterfacedObject, iProduto)
@@ -74,11 +74,14 @@ end;
 
 function TProduto.Total: Currency;
 begin
-  Result := 0;
+  Result := FRegraFiscal.This.Calculo(FValor);
+
+  {
   case FRegraFiscal of
     SimplesNacional: Result := FValor + (FValor * 0.1);
     LucroReal: Result := FValor + (FValor * 0.4);
   end;
+  }
 
   if Assigned(FDisplay) then
     FDisplay(CurrToStr(Result));
