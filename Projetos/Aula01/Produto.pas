@@ -76,13 +76,6 @@ function TProduto.Total: Currency;
 begin
   Result := FRegraFiscal.This.Calculo(FValor);
 
-  {
-  case FRegraFiscal of
-    SimplesNacional: Result := FValor + (FValor * 0.1);
-    LucroReal: Result := FValor + (FValor * 0.4);
-  end;
-  }
-
   if Assigned(FDisplay) then
     FDisplay(CurrToStr(Result));
 end;

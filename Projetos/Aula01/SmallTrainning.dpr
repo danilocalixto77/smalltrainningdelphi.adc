@@ -7,7 +7,8 @@ uses
   Produto in 'Produto.pas',
   Produto.Helpers in 'Produto.Helpers.pas',
   Imposto.SimplesNacional in 'Imposto.SimplesNacional.pas',
-  Imposto.LucroReal in 'Imposto.LucroReal.pas';
+  Imposto.LucroReal in 'Imposto.LucroReal.pas',
+  Imposto.LucroPresumido in 'Imposto.LucroPresumido.pas';
 
 {$R *.res}
 

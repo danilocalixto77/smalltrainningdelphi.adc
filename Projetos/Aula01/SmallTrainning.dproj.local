@@ -20,9 +20,11 @@
     <Transaction>2024/01/02 16:47:56.000.514,=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
     <Transaction>2024/01/02 16:48:11.000.617,D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Produto.Helper.pas=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
     <Transaction>2024/01/02 16:48:25.000.294,D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Produto.Helpers.pas=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Produto.Helper.pas</Transaction>
-    <Transaction>2024/01/03 23:17:29.802,=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
-    <Transaction>2024/01/03 23:18:17.233,D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Imposto.SimplesNacional.pas=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
-    <Transaction>2024/01/03 23:23:35.025,=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
-    <Transaction>2024/01/03 23:23:50.859,D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Imposto.LucroReal.pas=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
+    <Transaction>2024/01/03 23:17:29.000.802,=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
+    <Transaction>2024/01/03 23:18:17.000.233,D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Imposto.SimplesNacional.pas=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
+    <Transaction>2024/01/03 23:23:35.000.025,=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
+    <Transaction>2024/01/03 23:23:50.000.859,D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Imposto.LucroReal.pas=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
+    <Transaction>2024/01/05 23:40:04.980,=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
+    <Transaction>2024/01/05 23:40:26.629,D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Imposto.LucroPresumido.pas=D:\Danilo\Cursos\AcademiaDoCodigo\SmallTrainningDelphi\Projetos\Aula01\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

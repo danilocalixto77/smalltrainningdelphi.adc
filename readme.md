@@ -62,7 +62,9 @@
 
   Criação de CodeTemplate. Para criação as explicações estão nesta aula. 
 
-### Especializando o Enumerado com as classes helpers  
+### Especializando o Enumerado com as classes helpers
+
+### Compreendendo o objetivo da classe fechada para modificação e aberto para expanção
 
 ### Atalhos Dephi
 
