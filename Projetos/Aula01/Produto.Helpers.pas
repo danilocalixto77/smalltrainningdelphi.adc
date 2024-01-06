@@ -5,7 +5,7 @@ interface
 uses
   Vcl.StdCtrls,
   SysUtils,
-  Produto.Interfaces;
+  Produto.Interfaces, Imposto.LucroPresumido;
 
 type
   THelperEnumToCombo = class Helper for TComboBox
@@ -43,6 +43,7 @@ begin
   case Self of
     SimplesNacional: Result := TSimplesNacional.New;
     LucroReal: Result := TLucroReal.New;
+    LucroPresumido: Result := TLucroPresumido.New;
   end;
 end;
 

@@ -6,7 +6,7 @@ uses
   Vcl.Forms, System.SysUtils;
   type
 
-    TRegrasFiscais = (SimplesNacional, LucroReal);
+    TRegrasFiscais = (SimplesNacional, LucroReal, LucroPresumido);
 
     iProduto = interface
       ['{96184445-BAB1-4A41-8032-5045C7ACFED3}']
