@@ -71,8 +71,17 @@
 
 ### Implementando classe de gravação de log
 
-  
+  Reestruturação das pastas do projeto.
 
+  Criação da pasta src, com suas sub-pastas **\Model**, **\Log**, **\Produto**
+
+  Implementação da classe de interface de log: 
+  
+  Model.Log.Interfaces
+
+  Model.Log.Texto
+
+**CONTINUAR A PARTIR DOS 4:00 MINUTOS DE AULA**
 
 
 ---
@@ -84,3 +93,9 @@
   **Ctrl + Shift + A** Importa de onde a Interface, Classe e etc... foi implementada para cláusula **uses**. Procedimento: selecione a palavra que deseja buscar, e pressione o conjunto de teclas simultaneamente.
 
   **Ctrl + Shift + C** Adiciona as implementações das  Functions ou Procedures com assinaturas declaradas. Procedimento: ir na linhas das declarações das function ou procedures e pressione o conjunto de teclas simultaneamente.
+
+  **Alt + F11**  Abre interface para implementar o uso de um outro arquivo do projeto que ainda não esteja em uso no arquivo aberto.
+
+  Formas de implementar:
+
+  Interfaces ou Implementation

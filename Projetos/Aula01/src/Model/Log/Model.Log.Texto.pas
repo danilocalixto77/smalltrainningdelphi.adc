@@ -2,6 +2,42 @@ unit Model.Log.Texto;
 
 interface
 
+uses
+  Model.Log.Interfaces;
+type
+  TLogTexto = class(TInterfacedObject, iLog)
+    private
+    public
+    constructor Create;
+    destructor Destroy; override;
+    class function New : iLog;
+    function Gravar (aValue : String) : iLog;
+  end;
+
 implementation
+
+{ TLogTexto }
+
+constructor TLogTexto.Create;
+begin
+
+end;
+
+destructor TLogTexto.Destroy;
+begin
+
+  inherited;
+end;
+
+function TLogTexto.Gravar(aValue: String): iLog;
+begin
+  Result := Self;
+  //Gravar Texto
+end;
+
+class function TLogTexto.New: iLog;
+begin
+  Result := Self.Create;
+end;
 
 end.

@@ -3,7 +3,8 @@ unit Produto;
 interface
 
 uses
-  Produto.Interfaces, Vcl.Forms, System.SysUtils, Produto.Helpers;
+  Produto.Interfaces, Vcl.Forms, System.SysUtils, Produto.Helpers,
+  Model.Log.Texto;
 
 type
   TProduto = class(TInterfacedObject, iProduto)
@@ -78,6 +79,9 @@ begin
 
   if Assigned(FDisplay) then
     FDisplay(CurrToStr(Result));
+
+
+  TLogTexto.New.Gravar(CurrToStr(Result));
 end;
 
 function TProduto.Valor(aValue: String): iProduto;
