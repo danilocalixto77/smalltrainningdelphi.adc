@@ -102,12 +102,14 @@
             <Form>FormPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="Produto.Interfaces.pas"/>
-        <DCCReference Include="Produto.pas"/>
-        <DCCReference Include="Produto.Helpers.pas"/>
-        <DCCReference Include="Imposto.SimplesNacional.pas"/>
-        <DCCReference Include="Imposto.LucroReal.pas"/>
-        <DCCReference Include="Imposto.LucroPresumido.pas"/>
+        <DCCReference Include="src\Model\Produto\Produto.Interfaces.pas"/>
+        <DCCReference Include="src\Model\Produto\Produto.pas"/>
+        <DCCReference Include="src\Model\Produto\Produto.Helpers.pas"/>
+        <DCCReference Include="src\Model\Imposto\Imposto.SimplesNacional.pas"/>
+        <DCCReference Include="src\Model\Imposto\Imposto.LucroReal.pas"/>
+        <DCCReference Include="src\Model\Imposto\Imposto.LucroPresumido.pas"/>
+        <DCCReference Include="src\Model\Log\Model.Log.Interfaces.pas"/>
+        <DCCReference Include="src\Model\Log\Model.Log.Texto.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

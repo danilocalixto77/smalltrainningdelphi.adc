@@ -1,0 +1,7 @@
+unit Model.Log.Interfaces;
+
+interface
+
+implementation
+
+end.
