@@ -81,7 +81,7 @@ begin
     FDisplay(CurrToStr(Result));
 
 
-  //TLogTexto.New.Gravar(CurrToStr(Result));
+  TLogTexto.New.Gravar(CurrToStr(Result));
 end;
 
 function TProduto.Valor(aValue: String): iProduto;

@@ -81,11 +81,13 @@
 
   Model.Log.Texto
 
-**CONTINUAR A PARTIR DOS 4:00 MINUTOS DE AULA**
+  Não será usado o Fluente para chamar o log e sim o **Decorator**
 
+  Implementada a classe:
+
+  Model.Log
 
 ---
-
 
 ### Atalhos Dephi
 

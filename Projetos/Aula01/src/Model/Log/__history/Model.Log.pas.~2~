@@ -1,0 +1,18 @@
+unit Model.Log;
+
+interface
+
+uses Model.Log.Interfaces;
+type
+  TLog = class (TInterfacedObject, iLog)
+    private
+    public
+    constructor Create;
+    destructor Destroy;override;
+    class function New : iLog;
+    function Gravar (aValue : String) : iLog;
+  end;
+
+implementation
+
+end.
