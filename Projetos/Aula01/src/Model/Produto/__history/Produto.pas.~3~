@@ -80,6 +80,7 @@ begin
   if Assigned(FDisplay) then
     FDisplay(CurrToStr(Result));
 
+
   //TLogTexto.New.Gravar(CurrToStr(Result));
 end;
 
