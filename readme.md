@@ -87,6 +87,12 @@
 
   Model.Log
 
+### Preparando a classe de log para expansão com o padrão decorator
+
+  Modificando os Constructo, Destructor e class Function New.
+
+- ASSISTIR AULA NOVAMENTE.
+
 ---
 
 ### Atalhos Dephi
