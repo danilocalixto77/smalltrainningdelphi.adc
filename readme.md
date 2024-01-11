@@ -91,7 +91,9 @@
 
   Modificando os Constructo, Destructor e class Function New.
 
-- ASSISTIR AULA NOVAMENTE.
+---
+# Review aula para fixar e melhorar entendimento
+---
 
 ---
 
