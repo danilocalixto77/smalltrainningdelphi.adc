@@ -91,6 +91,21 @@
 
   Modificando os Constructo, Destructor e class Function New.
 
+  Inserindo no **private** uma variável para fazer uma injeção de dependência. Com o mesmo tipo da interface iLog.
+
+  Refatoração para padrão com Decorator:
+
+  Model.Log.pas
+  
+  ```
+  private
+    FDecorator : iLog;
+  public
+    constructor Create(Decorator : iLog = nil);
+    class function New(Decorator : iLog = nil) : iLog;    
+  ```
+  
+
 ---
 # Review aula para fixar e melhorar entendimento
 ---
@@ -104,6 +119,9 @@
   **Ctrl + Shift + A** Importa de onde a Interface, Classe e etc... foi implementada para cláusula **uses**. Procedimento: selecione a palavra que deseja buscar, e pressione o conjunto de teclas simultaneamente.
 
   **Ctrl + Shift + C** Adiciona as implementações das  Functions ou Procedures com assinaturas declaradas. Procedimento: ir na linhas das declarações das function ou procedures e pressione o conjunto de teclas simultaneamente.
+
+  **Ctrl + Shift + Alt + P** 
+  Atualiza as modificação feitas na assinatura, replicando para as implementações das  Functions ou Procedures. Procedimento: ir na linha ou selecionar assinatura que teve modificação na sua declaração. Pressione o conjunto de teclas simultaneamente.
 
   **Alt + F11**  Abre interface para implementar o uso de um outro arquivo do projeto que ainda não esteja em uso no arquivo aberto.
 
