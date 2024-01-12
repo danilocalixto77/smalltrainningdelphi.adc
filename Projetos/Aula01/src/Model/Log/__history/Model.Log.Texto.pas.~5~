@@ -32,9 +32,11 @@ end;
 function TLogTexto.Gravar(aValue: String): iLog;
 begin
   Result := Self;
+  FDecorator.Gravar(aValue);
+  //Gravar Texto
+
   if Assigned then
     FDecorator.Gravar(aValue);
-  //Gravar Texto
 end;
 
 class function TLogTexto.New: iLog;

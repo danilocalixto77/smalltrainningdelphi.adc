@@ -111,6 +111,7 @@
         <DCCReference Include="src\Model\Log\Model.Log.Interfaces.pas"/>
         <DCCReference Include="src\Model\Log\Model.Log.Texto.pas"/>
         <DCCReference Include="src\Model\Log\Model.Log.pas"/>
+        <DCCReference Include="src\Model\Log\Model.Log.Csv.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

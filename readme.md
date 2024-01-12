@@ -103,11 +103,27 @@
   public
     constructor Create(Decorator : iLog = nil);
     class function New(Decorator : iLog = nil) : iLog;    
+
+
+
+  class function TLog.New(Decorator : iLog = nil) : iLog;
+begin
+  //Result := Self.Create;
+  Result := Self.Create(Decorator);
+end;
+
+  constructor TLog.Create(Decorator : iLog = nil);
+  begin
+    FDecorator := Decorator;
+  end;
+
   ```
   
 
 ---
-# Review aula para fixar e melhorar entendimento
+
+# Continuar ....
+
 ---
 
 ---

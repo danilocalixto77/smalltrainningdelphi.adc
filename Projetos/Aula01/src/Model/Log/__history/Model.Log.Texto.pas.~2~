@@ -3,7 +3,7 @@ unit Model.Log.Texto;
 interface
 
 uses
-  Model.Log.Interfaces, Model.Log;
+  Model.Log.Interfaces;
 type
   TLogTexto = class(TInterfacedObject, iLog)
     private
@@ -32,8 +32,6 @@ end;
 function TLogTexto.Gravar(aValue: String): iLog;
 begin
   Result := Self;
-  if Assigned then
-    FDecorator.Gravar(aValue);
   //Gravar Texto
 end;
 

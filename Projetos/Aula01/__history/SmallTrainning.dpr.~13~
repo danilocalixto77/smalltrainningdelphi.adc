@@ -11,8 +11,7 @@ uses
   Imposto.LucroPresumido in 'src\Model\Imposto\Imposto.LucroPresumido.pas',
   Model.Log.Interfaces in 'src\Model\Log\Model.Log.Interfaces.pas',
   Model.Log.Texto in 'src\Model\Log\Model.Log.Texto.pas',
-  Model.Log in 'src\Model\Log\Model.Log.pas',
-  Model.Log.Csv in 'src\Model\Log\Model.Log.Csv.pas';
+  Model.Log in 'src\Model\Log\Model.Log.pas';
 
 {$R *.res}
 
