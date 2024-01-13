@@ -2,7 +2,7 @@ unit Model.Log;
 
 interface
 
-uses Model.Log.Interfaces, Model.Log.Csv;
+uses Model.Log.Interfaces, Model.Log.Texto, Model.Log.Csv;
 type
   TLog = class (TInterfacedObject, iLog)
     private

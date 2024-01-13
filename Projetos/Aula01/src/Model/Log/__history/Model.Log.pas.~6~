@@ -2,7 +2,7 @@ unit Model.Log;
 
 interface
 
-uses Model.Log.Interfaces, Model.Log.Csv;
+uses Model.Log.Interfaces, Model.Log.Texto;
 type
   TLog = class (TInterfacedObject, iLog)
     private
@@ -34,7 +34,9 @@ function TLog.Gravar(aValue: String): iLog;
 begin
   //TLogTexto.New.Gravar(aValue);
   TLogTexto
-    .New(TLogCsv.New).Gravar(aValue);
+    .New(
+      TLogCsv.New
+    ).Gravar(aValue);
 
 end;
 

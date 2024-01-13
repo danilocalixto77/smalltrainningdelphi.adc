@@ -4,7 +4,7 @@ interface
 
 uses
   Produto.Interfaces, Vcl.Forms, System.SysUtils, Produto.Helpers,
-  Model.Log.Texto, Model.Log.Csv;
+  Model.Log.Texto;
 
 type
   TProduto = class(TInterfacedObject, iProduto)

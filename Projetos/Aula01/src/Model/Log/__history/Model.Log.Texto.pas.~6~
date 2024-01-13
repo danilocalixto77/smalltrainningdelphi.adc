@@ -7,11 +7,10 @@ uses
 type
   TLogTexto = class(TInterfacedObject, iLog)
     private
-      FDecorator : iLog;
     public
-    constructor Create(Decorator : iLog = nil);
+    constructor Create;
     destructor Destroy; override;
-    class function New(Decorator : iLog = nil) : iLog;
+    class function New : iLog;
     function Gravar (aValue : String) : iLog;
   end;
 
@@ -19,9 +18,9 @@ implementation
 
 { TLogTexto }
 
-constructor TLogTexto.Create(Decorator : iLog = nil);
+constructor TLogTexto.Create;
 begin
-  FDecorator := Decorator;
+
 end;
 
 destructor TLogTexto.Destroy;
@@ -38,9 +37,9 @@ begin
   //Gravar Texto
 end;
 
-class function TLogTexto.New(Decorator : iLog = nil) : iLog;
+class function TLogTexto.New: iLog;
 begin
-  Result := Self.Create(Decorator);
+  Result := Self.Create;
 end;
 
 end.

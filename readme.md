@@ -117,6 +117,17 @@ end;
     FDecorator := Decorator;
   end;
 
+  function TLog.Gravar(aValue: String): iLog;
+  begin
+    //TLogTexto.New.Gravar(aValue);
+    TLogTexto
+      .New(
+        TLogCsv.New
+      ).Gravar(aValue);
+
+  end;
+
+
   ```
   
 
