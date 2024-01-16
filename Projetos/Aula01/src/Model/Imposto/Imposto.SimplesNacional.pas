@@ -6,36 +6,36 @@ uses
   Produto.Interfaces;
 
 type
-  TSimplesNacional = class(TInterfacedObject, iImposto)
+  TSimpleNacional = class(TInterfacedObject, iImposto)
     private
     public
-    constructor Create;
-    destructor Destroy;override;
-    class function New : iImposto;
-    function Calculo( aValue : Currency ) : Currency;
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iImposto;
+      function Calculo ( aValue : Currency ) : Currency;
   end;
 
 implementation
 
-{ TSimplesNacional }
+{ TSimpleNacional }
 
-function TSimplesNacional.Calculo(aValue: Currency): Currency;
+function TSimpleNacional.Calculo(aValue: Currency): Currency;
 begin
-  Result := aValue + (aValue * 0.1);
+  Result := aValue + (aValue * 0.1)
 end;
 
-constructor TSimplesNacional.Create;
+constructor TSimpleNacional.Create;
 begin
 
 end;
 
-destructor TSimplesNacional.Destroy;
+destructor TSimpleNacional.Destroy;
 begin
 
   inherited;
 end;
 
-class function TSimplesNacional.New: iImposto;
+class function TSimpleNacional.New: iImposto;
 begin
   Result := Self.Create;
 end;

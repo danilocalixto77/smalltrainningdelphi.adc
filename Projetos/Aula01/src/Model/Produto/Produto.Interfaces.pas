@@ -4,25 +4,27 @@ interface
 
 uses
   Vcl.Forms, System.SysUtils;
-  type
 
-    TRegrasFiscais = (SimplesNacional, LucroReal, LucroPresumido);
+type
 
-    iProduto = interface
-      ['{96184445-BAB1-4A41-8032-5045C7ACFED3}']
-      function Bind (aValue : TForm) : iProduto;
-      function Valor (aValue : Currency ) : iProduto; overload;
-      function Valor (aValue : String) : iProduto; overload;
-      function Regra (aValue : TRegrasFiscais ) : iProduto; overload;
-      function Regra (aValue : Integer ) : iProduto; overload;
-      function Display ( aValue : TProc<String>) : iProduto;
-      function Total : Currency;
-    end;
+  TRegrasFiscais = (SimplesNacional, LucroReal, LucroPresumido);
 
-    iImposto = Interface
-      ['{06E04DD0-C0BB-4BCC-9A60-9572687B6A66}']
-      function Calculo( aValue : Currency ) : Currency;
-    End;
+
+  iProduto = interface
+    ['{779EDEAA-F91B-4119-9894-96AC99A175AF}']
+    function Bind ( aValue : TForm ) : iProduto;
+    function Valor ( aValue : Currency ) : iProduto; overload;
+    function Valor ( aValue : String ) : iProduto; overload;
+    function Regra ( aValue : TRegrasFiscais ) : iProduto; overload;
+    function Regra ( aValue : Integer ) : iProduto; overload;
+    function Display ( aValue : TProc<String> ) : iProduto;
+    function Total : Currency;
+  end;
+
+  iImposto = interface
+    ['{3F9A5129-61F6-418C-94A8-9D34D265AA79}']
+    function Calculo ( aValue : Currency ) : Currency;
+  end;
 
 implementation
 

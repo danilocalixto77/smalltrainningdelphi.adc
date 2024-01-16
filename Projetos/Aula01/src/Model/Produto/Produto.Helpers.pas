@@ -5,45 +5,40 @@ interface
 uses
   Vcl.StdCtrls,
   SysUtils,
-  Produto.Interfaces, Imposto.LucroPresumido;
+  Produto.Interfaces,
+  TypInfo, Imposto.LucroReal, Imposto.SimplesNacional, Imposto.LucroPresumido;
 
 type
   THelperEnumToCombo = class Helper for TComboBox
-
-  procedure RegrasFiscais;
+    procedure RegrasFiscais;
   end;
 
-  THelperRegrasFiscais = record Helper for TRegrasFiscais
+
+  THelperRegrasFisicais = record Helper for TRegrasFiscais
     function This : iImposto;
   end;
 
 implementation
 
-uses
-  System.TypInfo, Imposto.SimplesNacional, Imposto.LucroReal;
-
-{THelperEnumToCombo}
-
 { THelperEnumToCombo }
 
 procedure THelperEnumToCombo.RegrasFiscais;
 var
-  i: Integer;
+  I: Integer;
 begin
   Self.Items.Clear;
-  for i := Ord(Low(TRegrasFiscais)) to Ord(High(TRegrasFiscais)) do
-    Self.Items.Add(GetEnumName(TypeInfo(TRegrasFiscais), i));
-
+  for I := Ord(Low(TRegrasFiscais)) to Ord(High(TRegrasFiscais)) do
+    Self.Items.Add(GetEnumName(TypeInfo(TRegrasFiscais), I));
 end;
 
-{ THelperRegrasFiscais }
+{ THelperRegrasFisicais }
 
-function THelperRegrasFiscais.This: iImposto;
+function THelperRegrasFisicais.This: iImposto;
 begin
   case Self of
-    SimplesNacional: Result := TSimplesNacional.New;
+    SimplesNacional: Result := TSimpleNacional.New;
     LucroReal: Result := TLucroReal.New;
-    LucroPresumido: Result := TLucroPresumido.New;
+    LucroPresumido : Result := TLucroPresumido.New;
   end;
 end;
 

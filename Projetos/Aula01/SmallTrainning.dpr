@@ -12,7 +12,8 @@ uses
   Model.Log.Interfaces in 'src\Model\Log\Model.Log.Interfaces.pas',
   Model.Log.Texto in 'src\Model\Log\Model.Log.Texto.pas',
   Model.Log in 'src\Model\Log\Model.Log.pas',
-  Model.Log.Csv in 'src\Model\Log\Model.Log.Csv.pas';
+  Model.Log.Csv in 'src\Model\Log\Model.Log.Csv.pas',
+  Model.Log.MongoDB in 'src\Model\Log\Model.Log.MongoDB.pas';
 
 {$R *.res}
 

@@ -6,13 +6,13 @@ uses
   Produto.Interfaces;
 
 type
-  TLucroReal = class (TInterfacedObject, iImposto)
+  TLucroReal = class(TInterfacedObject, iImposto)
     private
     public
-    constructor Create;
-    destructor Destroy;override;
-    class function New : iImposto;
-    function Calculo( aValue : Currency ) : Currency;
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iImposto;
+      function Calculo ( aValue : Currency ) : Currency;
   end;
 
 implementation
@@ -37,7 +37,7 @@ end;
 
 class function TLucroReal.New: iImposto;
 begin
-  Result := Self.Create;
+    Result := Self.Create;
 end;
 
 end.

@@ -2,26 +2,26 @@ unit Model.Log;
 
 interface
 
-uses Model.Log.Interfaces, Model.Log.Csv;
+uses
+  Model.Log.Interfaces, Model.Log.Texto, Model.Log.Csv, Model.Log.MongoDB;
+
 type
-  TLog = class (TInterfacedObject, iLog)
+  TLog = class(TInterfacedObject, iLog)
     private
-      FDecorator : iLog;
     public
-    constructor Create(Decorator : iLog = nil);
-    destructor Destroy;override;
-    //class function New : iLog;
-    class function New(Decorator : iLog = nil) : iLog;
-    function Gravar (aValue : String) : iLog;
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iLog;
+      function Gravar ( aValue : String ) : iLog;
   end;
 
 implementation
 
 { TLog }
 
-constructor TLog.Create(Decorator : iLog = nil);
+constructor TLog.Create;
 begin
-  FDecorator := Decorator;
+
 end;
 
 destructor TLog.Destroy;
@@ -32,15 +32,21 @@ end;
 
 function TLog.Gravar(aValue: String): iLog;
 begin
-  //TLogTexto.New.Gravar(aValue);
-  TLogTexto
-    .New(TLogCsv.New).Gravar(aValue);
+  Result := Self;
 
+  TLogTexto
+    .New(
+      TLogCsv
+        .New(
+          TLogMongoDB.New
+      )
+  )
+  .Gravar(aValue);
 end;
 
-class function TLog.New(Decorator : iLog = nil) : iLog;
+class function TLog.New: iLog;
 begin
-  Result := Self.Create(Decorator);
+    Result := Self.Create;
 end;
 
 end.

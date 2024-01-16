@@ -3,47 +3,45 @@ unit Model.Log.Csv;
 interface
 
 uses
-  Model.Log.Interfaces, Model.Log;
+  Model.Log.Interfaces;
 
 type
-  TModelCsv = class (TInterfacedObject, iLog)
-  private
-    FDecorator : iLog;
-  public
-    constructor Create(Decorator : iLog = nil);
-    destructor Destroy;override;
-    class function New(Decorator : iLog = nil) : iLog;
-    function Gravar (aValue : String) : iLog;
-
+  TLogCsv = class(TInterfacedObject, iLog)
+    private
+      FDecorator : iLog;
+    public
+      constructor Create(Decorator : iLog = nil);
+      destructor Destroy; override;
+      class function New(Decorator : iLog = nil) : iLog;
+      function Gravar ( aValue : String ) : iLog;
   end;
-
 
 implementation
 
-{ TModelCsv }
+{ TLogCsv }
 
-constructor TModelCsv.Create(Decorator: iLog);
+constructor TLogCsv.Create(Decorator : iLog = nil);
 begin
   FDecorator := Decorator;
 end;
 
-destructor TModelCsv.Destroy;
+destructor TLogCsv.Destroy;
 begin
 
   inherited;
 end;
 
-function TModelCsv.Gravar(aValue: String): iLog;
+function TLogCsv.Gravar(aValue: String): iLog;
 begin
   Result := Self;
 
-  if Assigned then
+  if Assigned(FDecorator) then
     FDecorator.Gravar(aValue);
 end;
 
-class function TModelCsv.New(Decorator: iLog): iLog;
+class function TLogCsv.New(Decorator : iLog = nil) : iLog;
 begin
-  Result := Self.Create(Decorator);
+    Result := Self.Create(Decorator);
 end;
 
 end.

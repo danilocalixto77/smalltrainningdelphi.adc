@@ -112,6 +112,7 @@
         <DCCReference Include="src\Model\Log\Model.Log.Texto.pas"/>
         <DCCReference Include="src\Model\Log\Model.Log.pas"/>
         <DCCReference Include="src\Model\Log\Model.Log.Csv.pas"/>
+        <DCCReference Include="src\Model\Log\Model.Log.MongoDB.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

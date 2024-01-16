@@ -3,33 +3,35 @@ unit Produto;
 interface
 
 uses
-  Produto.Interfaces, Vcl.Forms, System.SysUtils, Produto.Helpers,
-  Model.Log.Texto, Model.Log.Csv;
+  Produto.Interfaces,
+  Vcl.Forms,
+  System.SysUtils,
+  Produto.Helpers, Model.Log.Texto, Model.Log;
 
 type
   TProduto = class(TInterfacedObject, iProduto)
     private
-      FBind         : TForm;
-      FValor        : Currency;
-      FRegraFiscal  : TRegrasFiscais;
-      FDisplay      : TProc<String>;
+      FBind : TForm;
+      FValor : Currency;
+      FRegraFiscal : TRegrasFiscais;
+      FDisplay : TProc<String>;
     public
       constructor Create;
       destructor Destroy; override;
       class function New : iProduto;
-      function Valor (aValue : Currency ) : iProduto; overload;
-      function Valor (aValue : String) : iProduto; overload;
-      function Regra (aValue : TRegrasFiscais ) : iProduto; overload;
-      function Regra (aValue : Integer ) : iProduto; overload;
-      function Bind (aValue : TForm) : iProduto;
-      function Display ( aValue : TProc<String>) : iProduto;
+      function Valor ( aValue : Currency ) : iProduto; overload;
+      function Valor ( aValue : String ) : iProduto; overload;
+      function Regra ( aValue : TRegrasFiscais ) : iProduto; overload;
+      function Regra ( aValue : Integer ) : iProduto; overload;
+      function Bind ( aValue : TForm ) : iProduto;
+      function Display ( aValue : TProc<String> ) : iProduto;
       function Total : Currency;
   end;
 
 implementation
 
 uses
-  System.Classes, Vcl.StdCtrls;
+  System.Classes, Vcl.StdCtrls, Vcl.Graphics;
 
 { TProduto }
 
@@ -80,7 +82,6 @@ begin
   if Assigned(FDisplay) then
     FDisplay(CurrToStr(Result));
 
-  //TLogTexto.New.Gravar(CurrToStr(Result));
   TLog.New.Gravar(CurrToStr(Result));
 
 end;
@@ -97,8 +98,9 @@ begin
     aComponent := FBind.FindComponent('edtValor');
     if Assigned(aComponent) then
       if aComponent is TEdit then
-        TEdit(aComponent).SetFocus;
-    raise Exception.Create('O valor não pode ser menor ou igual a zero.');
+        TEdit(aComponent).Color := clRed;
+
+    raise Exception.Create('O Valor não Pode Ser Menor ou Igual a Zero');
   end;
 
 end;
