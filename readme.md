@@ -128,20 +128,13 @@ end;
   end;
   ```
 
+### Fontes do módulo
+
 ## MVC e Refatoração de Projetos
 
 
 
-
-### Fontes do módulo
-
----
-
-
-
-
-
-### Atalhos Dephi
+## Atalhos Dephi
 
   **Ctrl + Shift + G** Gera assinatura de uma interface. Procedimento: ir logo abaixo de uma declaração de uma interface e pressionar o conjunto de teclas simultaneamente.
 
