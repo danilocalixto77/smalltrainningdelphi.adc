@@ -126,20 +126,20 @@ end;
       ).Gravar(aValue);
 
   end;
-
-
   ```
-  
+
+## MVC e Refatoração de Projetos
+
+
+
+
+### Fontes do módulo
 
 ---
 
-#3 minutos
 
-# Continuar ....
 
----
 
----
 
 ### Atalhos Dephi
 
