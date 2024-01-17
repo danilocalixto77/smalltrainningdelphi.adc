@@ -130,7 +130,12 @@ end;
 
 ### Fontes do módulo
 
-## MVC e Refatoração de Projetos
+## MVC e Refatoração de Projetos (32 aulas)
+
+### Destravar é preciso
+
+### Overview do PDV totalmente RAD
+
 
 
 
