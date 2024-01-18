@@ -32,7 +32,6 @@
 
   **IF** imutável, é o tipo em que se aplica a utilização de ifs.
 
-
 ### Validando e dando foco no componente visual
 
   Desenvolvido um método com um esboço de como setar o focus em um componente após exception.
@@ -103,14 +102,11 @@
   public
     constructor Create(Decorator : iLog = nil);
     class function New(Decorator : iLog = nil) : iLog;    
-
-
-
-  class function TLog.New(Decorator : iLog = nil) : iLog;
-begin
-  //Result := Self.Create;
-  Result := Self.Create(Decorator);
-end;
+    class function TLog.New(Decorator : iLog = nil) : iLog;
+  begin
+    //Result := Self.Create;
+    Result := Self.Create(Decorator);
+  end;
 
   constructor TLog.Create(Decorator : iLog = nil);
   begin
