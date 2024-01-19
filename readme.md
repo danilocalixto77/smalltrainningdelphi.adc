@@ -132,6 +132,26 @@
 
 ### Overview do PDV totalmente RAD
 
+### Criando a camada view
+
+  Primeiro passo da refatoração de um projeto RAD, é retirar a conexão do banco de um componente e criar a classe de conexão.
+
+  Para monitorar possíveis despejos/vazamentos de memoria inserir um:
+  
+  ```
+  ReporteMemoryLeakOnShutdown := True;  
+  ```
+
+  Segundo, cria as pastas para o MVC:
+
+  \Model\Connection\Firedac
+   
+  \View\Forms
+
+  \Controller
+
+	
+
 
 
 
