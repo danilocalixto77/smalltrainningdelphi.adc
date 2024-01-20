@@ -150,7 +150,12 @@
 
   \Controller
 
-	
+
+### Entendendo a estrutura de um projeto com vida longa	
+
+  Conforme boas práticas do clean code que seria trabalhar orientado a interface e não a uma classe.
+
+  Explicações com diagrama(LucidChart) das conexões entre as camadas MVC.
 
 
 
