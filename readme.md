@@ -166,6 +166,13 @@
 
 ### Como utilizar um ORM em sua aplicação
 
+  Utilizando o SimpleORM para criação de JSON. Passo a passo de como add o SimpleORM do github e add no Delph.
+
+  Criação das entidades pasta **\Entity** no projeto.
+
+  SimpleORM transforma os objetos em SQL.
+
+
 
 
 
