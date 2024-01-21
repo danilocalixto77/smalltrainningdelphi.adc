@@ -162,7 +162,7 @@
 
   Firedac: Implementando a classe de conexão.
 
-
+  Utilizando padrão de projeto singleton para a conexão.
 
 ## Atalhos Dephi
 
