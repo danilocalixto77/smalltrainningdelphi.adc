@@ -158,8 +158,9 @@
   Explicações com diagrama(LucidChart) das conexões entre as camadas MVC.
 
 
+### Implementando as conexões
 
-
+  Firedac: Implementando a classe de conexão.
 
 
 
