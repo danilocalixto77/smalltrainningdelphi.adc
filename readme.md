@@ -172,6 +172,11 @@
 
   SimpleORM transforma os objetos em SQL.
 
+### Criando o DAO genérico
+
+  Criando o DAO para o SQL.
+
+  Explicação do funcionamento da Classe e da Interface.
 
 
 
