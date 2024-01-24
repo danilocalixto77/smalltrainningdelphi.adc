@@ -178,6 +178,10 @@
 
   Explicação do funcionamento da Classe e da Interface.
 
+### Considerações da classe DAO genérica
+
+  Explicações de como implementar para os diversos modos de tecnologias, explicação panorâmica. Sem detalhes técnicos. Pegado a ideia do funcionamento.
+
 
 
 
