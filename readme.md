@@ -183,8 +183,11 @@
   Explicações de como implementar para os diversos modos de tecnologias, explicação panorâmica. Sem detalhes técnicos. Pegado a ideia do funcionamento.
 
 
+### Entendendo como funciona os métodos do DAO
 
+  Utilizar o SimpleORM que já possuir o DAO, que será re-utilizado.
 
+  Criando uma conexaão buscando os dados a partir da conexão pela classe e trazendo os dados no grid.
 
 
 ---
