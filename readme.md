@@ -189,6 +189,27 @@
 
   Criando uma conexaão buscando os dados a partir da conexão pela classe e trazendo os dados no grid.
 
+### Implementando os métodos da classe DAO do SQL
+
+  Implementando:
+
+  New
+
+  Insert
+
+  Update
+
+  Delete
+
+  Através do objeto.
+
+  Métodos Find's por: Id, Por lista de objetos todos com (overload) sobrecarga do método find.
+
+  Método Query
+
+  Método DataSet
+
+  
 
 ---
 ---
