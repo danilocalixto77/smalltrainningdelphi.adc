@@ -209,7 +209,13 @@
 
   Método DataSet
 
-  
+  Método LastId
+
+  Método DataChange
+
+  Métodos declarado mas implementação serão nas próximas aulas.
+
+
 
 ---
 ---
