@@ -217,6 +217,9 @@
 
 ### Implementando o Controller de objeto genérico
 
+### Criando o Controller que a view irá trabalhar
+
+
   
 
 ---
