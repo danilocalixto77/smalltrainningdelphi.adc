@@ -220,6 +220,12 @@
 ### Criando o Controller que a view irá trabalhar
 
 ### Implementando as requisições da view ao controller
+
+  Overview do projeto até o momento.
+
+  Retirada de vários acomplamentos do form principal.
+
+  Explicações da conexão e como o projeto está organizado.
   
 
 ---
