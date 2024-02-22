@@ -227,6 +227,9 @@
 
   Explicações da conexão e como o projeto está organizado.
   
+### Considerações das possíveis opções para o DAO
+
+### O beneficio da organização da construção da tela
 
 ---
 ---
