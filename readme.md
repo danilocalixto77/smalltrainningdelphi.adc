@@ -236,7 +236,7 @@
 
   Especializando um módulo, no caso o caixa, implementando uma interface especializada com os métodos do caixa.
 
-###
+### Especializando o Model DAO para o mestre detalhe
 
 ###
 
