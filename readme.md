@@ -238,7 +238,7 @@
 
 ### Especializando o Model DAO para o mestre detalhe
 
-###
+### Recapitulando o que fizemos no Controllers e DAOs
 
 
 
