@@ -243,6 +243,8 @@
 
 
 
+-- verificar onde parou para continuar aulas...
+
 ---
 ---
 
