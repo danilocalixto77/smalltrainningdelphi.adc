@@ -251,6 +251,7 @@ Nesta etapa do curso o formulários que ficariam acoplados normalmente em uma un
 
 -- verificar onde parou para continuar aulas...
 -- CONTINUAR
+-- 5 minutos
 
 ---
 ---
