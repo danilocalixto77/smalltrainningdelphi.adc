@@ -246,10 +246,15 @@ Nesta etapa do curso o formulários que ficariam acoplados normalmente em uma un
 
 ### Especializando o Controller Usuário da tela abrir caixa
 
+Refatoração da tela de abertura de caixa.
+
+Adicionado na iController Usuarios.
 
 
 
-### ....
+### Os prós de uma boa refatoração
+
+
 
 ---
 ---
