@@ -221,11 +221,11 @@
 
 ### Implementando as requisições da view ao controller
 
-  Overview do projeto até o momento.
+Overview do projeto até o momento.
 
-  Retirada de vários acomplamentos do form principal.
+Retirada de vários acomplamentos do form principal.
 
-  Explicações da conexão e como o projeto está organizado.
+Explicações da conexão e como o projeto está organizado.
   
 ### Considerações das possíveis opções para o DAO
 
@@ -234,7 +234,7 @@
 
 ### Especializando o controllers do caixa
 
-  Especializando um módulo, no caso o caixa, implementando uma interface especializada com os métodos do caixa.
+Especializando um módulo, no caso o caixa, implementando uma interface especializada com os métodos do caixa.
 
 ### Especializando o Model DAO para o mestre detalhe
 
@@ -250,15 +250,20 @@ Refatoração da tela de abertura de caixa.
 
 Adicionado na iController Usuarios.
 
-
-
 ### Os prós de uma boa refatoração
 
+### Refatorando o Insert da abertura do caixa
+
+### Refatorando a tela de operador
+
+### Ajustando o abrir caixa
 
 
----
----
-- -
+
+
+
+
+
 
 
 
@@ -281,6 +286,12 @@ Adicionado na iController Usuarios.
   Formas de implementar:
 
   Interfaces ou Implementation
+
+## Dicas
+
+  Passar na criação/chamada de um formulário TForm o parametro Owner faz com que ao fechar o formulário principal, os demais sejam fechados juntos.
+
+  Funciton AbrirForm(Owner : TForm) : Object
 
  
 
