@@ -258,15 +258,14 @@ Adicionado na iController Usuarios.
 
 ### Ajustando o abrir caixa
 
+### Criando a tela de seleção de cliente para abertua da venda
+
+### Especializando o Controller Cliente da tela abrir venda
+
+### Implemetando o Controller de Produto para a tela de venda itens
 
 
-
-
-
-
-
-
-
+---
 ---
 ---
 
@@ -294,6 +293,7 @@ Adicionado na iController Usuarios.
   Funciton AbrirForm(Owner : TForm) : Object
 
  
+
 
 ---
 ---
