@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model name="AppRAD" id="AppRAD" language="delphi">
+  <Diagram name="default" id="ID=11" metaclass="Namespace Diagram" file="default.txvpck.html">
+    <Property name="defaultDiagram">true</Property>
+    <DiagramReference id="ID=396" element="ID=3" metaclass="Namespace">
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="bounds">10,10,122,112</Property>
+    </DiagramReference>
+    <DiagramReference id="ID=397" element="ID=4" metaclass="Namespace">
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="bounds">141,1,244,167</Property>
+      <DiagramReference id="ID=404" element="ID=12" metaclass="Module" />
+    </DiagramReference>
+    <DiagramReference id="ID=398" element="ID=5" metaclass="Namespace">
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="bounds">22,131,137,282</Property>
+      <DiagramReference id="ID=408" element="ID=87" metaclass="Class">
+        <Property name="Abstract">False</Property>
+        <Property name="Extends">System.Classes.TDataModule</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=409" element="ID=88" metaclass="Module" />
+    </DiagramReference>
+    <DiagramReference id="ID=399" element="ID=6" metaclass="Namespace">
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="bounds">282,1,398,103</Property>
+    </DiagramReference>
+    <DiagramReference id="ID=400" element="ID=7" metaclass="Namespace">
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="bounds">156,186,262,352</Property>
+      <DiagramReference id="ID=410" element="ID=172" metaclass="Module" />
+      <DiagramReference id="ID=411" element="ID=173" metaclass="Class">
+        <Property name="Abstract">False</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=412" element="ID=174" metaclass="Class">
+        <Property name="Abstract">False</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+      </DiagramReference>
+    </DiagramReference>
+    <DiagramReference id="ID=401" element="ID=8" metaclass="Namespace">
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="bounds">300,122,406,224</Property>
+    </DiagramReference>
+    <DiagramReference id="ID=402" element="ID=9" metaclass="Namespace">
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="bounds">300,243,418,345</Property>
+    </DiagramReference>
+    <DiagramReference id="ID=403" element="ID=10" metaclass="Namespace">
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="bounds">300,364,400,466</Property>
+    </DiagramReference>
+  </Diagram>
+  <Package name="uFormAbrirCaixa" id="ID=3">
+    <Diagram name="uFormAbrirCaixa" id="ID=26" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+    </Diagram>
+  </Package>
+  <Package name="AppRAD" id="ID=4">
+    <Diagram name="AppRAD" id="ID=14" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+      <DiagramReference id="ID=413" element="ID=12" metaclass="Module">
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=414" element="ID=13" metaclass="Namespace">
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=415" element="ID=372" metaclass="Namespace">
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+      </DiagramReference>
+    </Diagram>
+    <Package name="Model" id="ID=13">
+      <Diagram name="Model" id="ID=16" metaclass="Namespace Diagram" file="default.txvpck.html">
+        <Property name="defaultDiagram">true</Property>
+        <DiagramReference id="ID=419" element="ID=15" metaclass="Namespace">
+          <Property name="Color Area">Whole Shape</Property>
+          <Property name="Gradient ON">False</Property>
+          <Property name="Gradient Mode">Vertical</Property>
+          <Property name="Gradient color 2">255, 255, 255</Property>
+          <Property name="Gradient color 1">255, 255, 255</Property>
+        </DiagramReference>
+      </Diagram>
+      <Package name="Connection" id="ID=15">
+        <Diagram name="Connection" id="ID=18" metaclass="Namespace Diagram" file="default.txvpck.html">
+          <Property name="defaultDiagram">true</Property>
+          <DiagramReference id="ID=421" element="ID=17" metaclass="Namespace">
+            <Property name="Color Area">Whole Shape</Property>
+            <Property name="Gradient ON">False</Property>
+            <Property name="Gradient Mode">Vertical</Property>
+            <Property name="Gradient color 2">255, 255, 255</Property>
+            <Property name="Gradient color 1">255, 255, 255</Property>
+            <DiagramReference id="ID=422" element="ID=19" metaclass="Module" />
+          </DiagramReference>
+        </Diagram>
+        <Package name="Interfaces" id="ID=17">
+          <Diagram name="Interfaces" id="ID=20" metaclass="Namespace Diagram" file="default.txvpck.html">
+            <Property name="defaultDiagram">true</Property>
+            <DiagramReference id="ID=423" element="ID=19" metaclass="Module">
+              <Property name="Gradient Mode">Vertical</Property>
+              <Property name="Gradient color 1">255, 255, 255</Property>
+              <Property name="Gradient ON">False</Property>
+              <Property name="Gradient color 2">255, 255, 255</Property>
+              <Property name="Color Area">Whole Shape</Property>
+            </DiagramReference>
+          </Diagram>
+          <Classifier name="globals Interfaces" id="ID=19" type="Module" visibility="public">
+            <Uses />
+          </Classifier>
+        </Package>
+      </Package>
+    </Package>
+    <Package name="View" id="ID=372">
+      <Diagram name="View" id="ID=406" metaclass="Namespace Diagram" file="default.txvpck.html">
+        <Property name="defaultDiagram">true</Property>
+        <DiagramReference id="ID=424" element="ID=373" metaclass="Namespace">
+          <Property name="Color Area">Whole Shape</Property>
+          <Property name="Gradient ON">False</Property>
+          <Property name="Gradient Mode">Vertical</Property>
+          <Property name="Gradient color 2">255, 255, 255</Property>
+          <Property name="Gradient color 1">255, 255, 255</Property>
+        </DiagramReference>
+      </Diagram>
+      <Package name="Forms" id="ID=373">
+        <Diagram name="Forms" id="ID=417" metaclass="Namespace Diagram" file="default.txvpck.html">
+          <Property name="defaultDiagram">true</Property>
+          <DiagramReference id="ID=431" element="ID=377" metaclass="Namespace">
+            <Property name="Color Area">Whole Shape</Property>
+            <Property name="Gradient ON">False</Property>
+            <Property name="Gradient Mode">Vertical</Property>
+            <Property name="Gradient color 2">255, 255, 255</Property>
+            <Property name="Gradient color 1">255, 255, 255</Property>
+          </DiagramReference>
+          <DiagramReference id="ID=432" element="ID=382" metaclass="Namespace">
+            <Property name="Color Area">Whole Shape</Property>
+            <Property name="Gradient ON">False</Property>
+            <Property name="Gradient Mode">Vertical</Property>
+            <Property name="Gradient color 2">255, 255, 255</Property>
+            <Property name="Gradient color 1">255, 255, 255</Property>
+            <DiagramReference id="ID=438" element="ID=383" metaclass="Class">
+              <Property name="Abstract">False</Property>
+              <Property name="Extends">Vcl.Forms.TForm</Property>
+              <Property name="Persistent">False</Property>
+              <Property name="Sealed">False</Property>
+            </DiagramReference>
+            <DiagramReference id="ID=439" element="ID=388" metaclass="Module" />
+          </DiagramReference>
+          <DiagramReference id="ID=433" element="ID=374" metaclass="Namespace">
+            <Property name="Color Area">Whole Shape</Property>
+            <Property name="Gradient ON">False</Property>
+            <Property name="Gradient Mode">Vertical</Property>
+            <Property name="Gradient color 2">255, 255, 255</Property>
+            <Property name="Gradient color 1">255, 255, 255</Property>
+          </DiagramReference>
+        </Diagram>
+        <Package name="Venda" id="ID=377">
+          <Diagram name="Venda" id="ID=425" metaclass="Namespace Diagram" file="default.txvpck.html">
+            <Property name="defaultDiagram">true</Property>
+            <DiagramReference id="ID=467" element="ID=378" metaclass="Namespace">
+              <Property name="Color Area">Whole Shape</Property>
+              <Property name="Gradient ON">False</Property>
+              <Property name="Gradient Mode">Vertical</Property>
+              <Property name="Gradient color 2">255, 255, 255</Property>
+              <Property name="Gradient color 1">255, 255, 255</Property>
+              <DiagramReference id="ID=469" element="ID=379" metaclass="Class">
+                <Property name="Abstract">False</Property>
+                <Property name="Extends">Vcl.Forms.TForm</Property>
+                <Property name="Persistent">False</Property>
+                <Property name="Sealed">False</Property>
+              </DiagramReference>
+              <DiagramReference id="ID=470" element="ID=390" metaclass="Module" />
+            </DiagramReference>
+            <DiagramReference id="ID=468" element="ID=384" metaclass="Namespace">
+              <Property name="Color Area">Whole Shape</Property>
+              <Property name="Gradient ON">False</Property>
+              <Property name="Gradient Mode">Vertical</Property>
+              <Property name="Gradient color 2">255, 255, 255</Property>
+              <Property name="Gradient color 1">255, 255, 255</Property>
+              <DiagramReference id="ID=509" element="ID=385" metaclass="Class">
+                <Property name="Abstract">False</Property>
+                <Property name="Extends">Vcl.Forms.TForm</Property>
+                <Property name="Persistent">False</Property>
+                <Property name="Sealed">False</Property>
+              </DiagramReference>
+              <DiagramReference id="ID=510" element="ID=389" metaclass="Module" />
+            </DiagramReference>
+          </Diagram>
+          <Package name="VenderItem" id="ID=378">
+            <Diagram name="VenderItem" id="ID=434" metaclass="Namespace Diagram" file="default.txvpck.html">
+              <Property name="defaultDiagram">true</Property>
+              <DiagramReference id="ID=530" element="ID=379" metaclass="Class">
+                <Property name="Abstract">False</Property>
+                <Property name="Gradient ON">False</Property>
+                <Property name="Gradient Mode">Vertical</Property>
+                <Property name="Extends">Vcl.Forms.TForm</Property>
+                <Property name="Persistent">False</Property>
+                <Property name="Color Area">Whole Shape</Property>
+                <Property name="Gradient color 2">255, 255, 255</Property>
+                <Property name="Sealed">False</Property>
+                <Property name="Gradient color 1">255, 255, 255</Property>
+              </DiagramReference>
+              <DiagramReference id="ID=531" element="ID=390" metaclass="Module">
+                <Property name="Gradient Mode">Vertical</Property>
+                <Property name="Gradient color 1">255, 255, 255</Property>
+                <Property name="Gradient ON">False</Property>
+                <Property name="Gradient color 2">255, 255, 255</Property>
+                <Property name="Color Area">Whole Shape</Property>
+                <DiagramReference id="ID=554" element="ID=508" metaclass="Association Link">
+                  <Property name="Directed">False</Property>
+                  <Property name="Type">association</Property>
+                  <Property name="Client">formVenderItens</Property>
+                  <Property name="Supplier">TformVenderItens</Property>
+                </DiagramReference>
+              </DiagramReference>
+            </Diagram>
+            <Classifier name="TformVenderItens" id="ID=379" type="Class" visibility="public">
+              <Property name="Abstract">False</Property>
+              <Property name="Extends">Vcl.Forms.TForm</Property>
+              <Property name="Persistent">False</Property>
+              <Property name="Sealed">False</Property>
+              <Extends idref="ID=48" refFN="Vcl.Forms.TForm" doom="true" />
+              <Uses>
+                <Use element="ID=507" type="field_type" />
+              </Uses>
+              <Field fieldType="Field" elementName="ComboBox1" id="ID=471" type="TComboBox" systemType="TComboBox" isPrimitive="false" visibility="public">
+                <Property name="Type">TComboBox</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Label1" id="ID=472" type="TLabel" systemType="TLabel" isPrimitive="false" visibility="public">
+                <Property name="Type">TLabel</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Edit1" id="ID=473" type="TEdit" systemType="TEdit" isPrimitive="false" visibility="public">
+                <Property name="Type">TEdit</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Label2" id="ID=474" type="TLabel" systemType="TLabel" isPrimitive="false" visibility="public">
+                <Property name="Type">TLabel</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Label3" id="ID=475" type="TLabel" systemType="TLabel" isPrimitive="false" visibility="public">
+                <Property name="Type">TLabel</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Label4" id="ID=476" type="TLabel" systemType="TLabel" isPrimitive="false" visibility="public">
+                <Property name="Type">TLabel</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Button1" id="ID=477" type="TButton" systemType="TButton" isPrimitive="false" visibility="public">
+                <Property name="Type">TButton</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="DBGrid1" id="ID=478" type="TDBGrid" systemType="TDBGrid" isPrimitive="false" visibility="public">
+                <Property name="Type">TDBGrid</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Button2" id="ID=479" type="TButton" systemType="TButton" isPrimitive="false" visibility="public">
+                <Property name="Type">TButton</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Label5" id="ID=480" type="TLabel" systemType="TLabel" isPrimitive="false" visibility="public">
+                <Property name="Type">TLabel</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Label6" id="ID=481" type="TLabel" systemType="TLabel" isPrimitive="false" visibility="public">
+                <Property name="Type">TLabel</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="DataSource1" id="ID=482" type="TDataSource" systemType="TDataSource" isPrimitive="false" visibility="public">
+                <Property name="Type">TDataSource</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Button3" id="ID=483" type="TButton" systemType="TButton" isPrimitive="false" visibility="public">
+                <Property name="Type">TButton</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="FVenda" id="ID=489" type="String" isPrimitive="true" visibility="internal">
+                <Property name="Type">String</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Method id="ID=484" name="FormCreate" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=484_61343110" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=484" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=485" name="Edit1Change" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=485_2736041" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=485" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=486" name="Button1Click" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=486_20292748" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=486" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=487" name="Button2Click" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=487_33099863" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=487" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=488" name="Button3Click" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=488_63843251" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=488" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=490" name="ExibirVendaItens" isSubroutine="true" visibility="public">
+                <Parameter elementName="aGuuidVenda" id="ID3=490_3920839" type="String" isPrimitive="true" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=490" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=491" name="CarregarItens" isSubroutine="true" visibility="public">
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=491" type="" isPrimitive="true" />
+              </Method>
+            </Classifier>
+            <Classifier name="globals VenderItem" id="ID=390" type="Module" visibility="public">
+              <Link targetName="formVenderItens" id="ID=508" metaclass="Association Link" idref="ID=379">
+                <Property name="Directed">False</Property>
+                <Property name="Type">association</Property>
+                <Property name="Client">formVenderItens</Property>
+                <Property name="Supplier">TformVenderItens</Property>
+              </Link>
+              <Uses />
+              <Field fieldType="Field" elementName="formVenderItens" id="ID=507" typeref="ID=379" type="TformVenderItens" isPrimitive="false" visibility="internal">
+                <Property name="Type">TformVenderItens</Property>
+                <Property name="Const">False</Property>
+              </Field>
+            </Classifier>
+          </Package>
+          <Package name="Abrir" id="ID=384">
+            <Diagram name="Abrir" id="ID=436" metaclass="Namespace Diagram" file="default.txvpck.html">
+              <Property name="defaultDiagram">true</Property>
+              <DiagramReference id="ID=556" element="ID=385" metaclass="Class">
+                <Property name="Abstract">False</Property>
+                <Property name="Gradient ON">False</Property>
+                <Property name="Gradient Mode">Vertical</Property>
+                <Property name="Extends">Vcl.Forms.TForm</Property>
+                <Property name="Persistent">False</Property>
+                <Property name="Color Area">Whole Shape</Property>
+                <Property name="Gradient color 2">255, 255, 255</Property>
+                <Property name="Sealed">False</Property>
+                <Property name="Gradient color 1">255, 255, 255</Property>
+              </DiagramReference>
+              <DiagramReference id="ID=557" element="ID=389" metaclass="Module">
+                <Property name="Gradient Mode">Vertical</Property>
+                <Property name="Gradient color 1">255, 255, 255</Property>
+                <Property name="Gradient ON">False</Property>
+                <Property name="Gradient color 2">255, 255, 255</Property>
+                <Property name="Color Area">Whole Shape</Property>
+                <DiagramReference id="ID=571" element="ID=529" metaclass="Association Link">
+                  <Property name="Directed">False</Property>
+                  <Property name="Type">association</Property>
+                  <Property name="Client">formAbrirVenda</Property>
+                  <Property name="Supplier">TformAbrirVenda</Property>
+                </DiagramReference>
+              </DiagramReference>
+            </Diagram>
+            <Classifier name="TformAbrirVenda" id="ID=385" type="Class" visibility="public">
+              <Property name="Abstract">False</Property>
+              <Property name="Extends">Vcl.Forms.TForm</Property>
+              <Property name="Persistent">False</Property>
+              <Property name="Sealed">False</Property>
+              <Extends idref="ID=48" refFN="Vcl.Forms.TForm" doom="true" />
+              <Uses>
+                <Use element="ID=528" type="field_type" />
+              </Uses>
+              <Field fieldType="Field" elementName="Label1" id="ID=511" type="TLabel" systemType="TLabel" isPrimitive="false" visibility="public">
+                <Property name="Type">TLabel</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="ComboBox1" id="ID=512" type="TComboBox" systemType="TComboBox" isPrimitive="false" visibility="public">
+                <Property name="Type">TComboBox</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Button1" id="ID=513" type="TButton" systemType="TButton" isPrimitive="false" visibility="public">
+                <Property name="Type">TButton</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="FCaixa" id="ID=516" type="String" isPrimitive="true" visibility="internal">
+                <Property name="Type">String</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="FGuuidVenda" id="ID=517" type="String" isPrimitive="true" visibility="internal">
+                <Property name="Type">String</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="GuuidVenda" id="ID=520" type="String" isPrimitive="true" isProperty="true" visibility="public">
+                <Property name="Type">String</Property>
+                <Property name="Class">False</Property>
+                <Property name="Access">read/write</Property>
+              </Field>
+              <Method id="ID=514" name="Button1Click" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=514_12914452" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=514" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=515" name="FormCreate" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=515_39437706" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=515" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=518" name="SetGuuidVenda" isSubroutine="true" visibility="internal">
+                <Parameter elementName="Value" id="ID3=518_40337624" type="String" isPrimitive="true" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=518" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=519" name="AbrirVenda" isSubroutine="true" visibility="public">
+                <Parameter elementName="aGuuidCaixa" id="ID3=519_46122151" type="String" isPrimitive="true" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=519" type="" isPrimitive="true" />
+              </Method>
+            </Classifier>
+            <Classifier name="globals Abrir" id="ID=389" type="Module" visibility="public">
+              <Link targetName="formAbrirVenda" id="ID=529" metaclass="Association Link" idref="ID=385">
+                <Property name="Directed">False</Property>
+                <Property name="Type">association</Property>
+                <Property name="Client">formAbrirVenda</Property>
+                <Property name="Supplier">TformAbrirVenda</Property>
+              </Link>
+              <Uses />
+              <Field fieldType="Field" elementName="formAbrirVenda" id="ID=528" typeref="ID=385" type="TformAbrirVenda" isPrimitive="false" visibility="internal">
+                <Property name="Type">TformAbrirVenda</Property>
+                <Property name="Const">False</Property>
+              </Field>
+            </Classifier>
+          </Package>
+        </Package>
+        <Package name="Principal" id="ID=382">
+          <Diagram name="Principal" id="ID=427" metaclass="Namespace Diagram" file="default.txvpck.html">
+            <Property name="defaultDiagram">true</Property>
+            <DiagramReference id="ID=572" element="ID=383" metaclass="Class">
+              <Property name="Abstract">False</Property>
+              <Property name="Gradient ON">False</Property>
+              <Property name="Gradient Mode">Vertical</Property>
+              <Property name="Extends">Vcl.Forms.TForm</Property>
+              <Property name="Persistent">False</Property>
+              <Property name="Color Area">Whole Shape</Property>
+              <Property name="Gradient color 2">255, 255, 255</Property>
+              <Property name="Sealed">False</Property>
+              <Property name="Gradient color 1">255, 255, 255</Property>
+            </DiagramReference>
+            <DiagramReference id="ID=573" element="ID=388" metaclass="Module">
+              <Property name="Gradient Mode">Vertical</Property>
+              <Property name="Gradient color 1">255, 255, 255</Property>
+              <Property name="Gradient ON">False</Property>
+              <Property name="Gradient color 2">255, 255, 255</Property>
+              <Property name="Color Area">Whole Shape</Property>
+              <DiagramReference id="ID=588" element="ID=462" metaclass="Association Link">
+                <Property name="Directed">False</Property>
+                <Property name="Type">association</Property>
+                <Property name="Client">Form1</Property>
+                <Property name="Supplier">TForm1</Property>
+              </DiagramReference>
+            </DiagramReference>
+          </Diagram>
+          <Classifier name="TForm1" id="ID=383" type="Class" visibility="public">
+            <Property name="Abstract">False</Property>
+            <Property name="Extends">Vcl.Forms.TForm</Property>
+            <Property name="Persistent">False</Property>
+            <Property name="Sealed">False</Property>
+            <Extends idref="ID=48" refFN="Vcl.Forms.TForm" doom="true" />
+            <Uses>
+              <Use element="ID=461" type="field_type" />
+            </Uses>
+            <Field fieldType="Field" elementName="DBGrid1" id="ID=440" type="TDBGrid" systemType="TDBGrid" isPrimitive="false" visibility="public">
+              <Property name="Type">TDBGrid</Property>
+              <Property name="Class">False</Property>
+              <Property name="Const">False</Property>
+            </Field>
+            <Field fieldType="Field" elementName="DataSource1" id="ID=441" type="TDataSource" systemType="TDataSource" isPrimitive="false" visibility="public">
+              <Property name="Type">TDataSource</Property>
+              <Property name="Class">False</Property>
+              <Property name="Const">False</Property>
+            </Field>
+            <Field fieldType="Field" elementName="Button1" id="ID=442" type="TButton" systemType="TButton" isPrimitive="false" visibility="public">
+              <Property name="Type">TButton</Property>
+              <Property name="Class">False</Property>
+              <Property name="Const">False</Property>
+            </Field>
+            <Field fieldType="Field" elementName="DBGrid2" id="ID=443" type="TDBGrid" systemType="TDBGrid" isPrimitive="false" visibility="public">
+              <Property name="Type">TDBGrid</Property>
+              <Property name="Class">False</Property>
+              <Property name="Const">False</Property>
+            </Field>
+            <Field fieldType="Field" elementName="DataSource2" id="ID=444" type="TDataSource" systemType="TDataSource" isPrimitive="false" visibility="public">
+              <Property name="Type">TDataSource</Property>
+              <Property name="Class">False</Property>
+              <Property name="Const">False</Property>
+            </Field>
+            <Field fieldType="Field" elementName="Button2" id="ID=445" type="TButton" systemType="TButton" isPrimitive="false" visibility="public">
+              <Property name="Type">TButton</Property>
+              <Property name="Class">False</Property>
+              <Property name="Const">False</Property>
+            </Field>
+            <Field fieldType="Field" elementName="Button4" id="ID=446" type="TButton" systemType="TButton" isPrimitive="false" visibility="public">
+              <Property name="Type">TButton</Property>
+              <Property name="Class">False</Property>
+              <Property name="Const">False</Property>
+            </Field>
+            <Method id="ID=447" name="Button1Click" isSubroutine="true" visibility="public">
+              <Parameter elementName="Sender" id="ID3=447_58791086" type="TObject" systemType="TObject" isPrimitive="false" />
+              <Property name="Abstract">False</Property>
+              <Property name="Class">False</Property>
+              <Property name="Virtual">False</Property>
+              <Property name="Final">False</Property>
+              <Property name="Reintroduce">False</Property>
+              <Property name="Override">False</Property>
+              <ReturnType id="ID=447" type="" isPrimitive="true" />
+            </Method>
+            <Method id="ID=448" name="DataSource2DataChange" isSubroutine="true" visibility="public">
+              <Parameter elementName="Sender" id="ID3=448_64457512" type="TObject" systemType="TObject" isPrimitive="false" />
+              <Parameter elementName="Field" id="ID3=448_13321984" type="TField" systemType="TField" isPrimitive="false" />
+              <Property name="Abstract">False</Property>
+              <Property name="Class">False</Property>
+              <Property name="Virtual">False</Property>
+              <Property name="Final">False</Property>
+              <Property name="Reintroduce">False</Property>
+              <Property name="Override">False</Property>
+              <ReturnType id="ID=448" type="" isPrimitive="true" />
+            </Method>
+            <Method id="ID=449" name="Button2Click" isSubroutine="true" visibility="public">
+              <Parameter elementName="Sender" id="ID3=449_5338943" type="TObject" systemType="TObject" isPrimitive="false" />
+              <Property name="Abstract">False</Property>
+              <Property name="Class">False</Property>
+              <Property name="Virtual">False</Property>
+              <Property name="Final">False</Property>
+              <Property name="Reintroduce">False</Property>
+              <Property name="Override">False</Property>
+              <ReturnType id="ID=449" type="" isPrimitive="true" />
+            </Method>
+            <Method id="ID=450" name="Button4Click" isSubroutine="true" visibility="public">
+              <Parameter elementName="Sender" id="ID3=450_29801234" type="TObject" systemType="TObject" isPrimitive="false" />
+              <Property name="Abstract">False</Property>
+              <Property name="Class">False</Property>
+              <Property name="Virtual">False</Property>
+              <Property name="Final">False</Property>
+              <Property name="Reintroduce">False</Property>
+              <Property name="Override">False</Property>
+              <ReturnType id="ID=450" type="" isPrimitive="true" />
+            </Method>
+            <Method id="ID=451" name="CarregarVendasCaixa" isSubroutine="true" visibility="internal">
+              <Property name="Abstract">False</Property>
+              <Property name="Class">False</Property>
+              <Property name="Virtual">False</Property>
+              <Property name="Final">False</Property>
+              <Property name="Reintroduce">False</Property>
+              <Property name="Override">False</Property>
+              <ReturnType id="ID=451" type="" isPrimitive="true" />
+            </Method>
+            <Method id="ID=452" name="ListarCaixas" isSubroutine="true" visibility="internal">
+              <Property name="Abstract">False</Property>
+              <Property name="Class">False</Property>
+              <Property name="Virtual">False</Property>
+              <Property name="Final">False</Property>
+              <Property name="Reintroduce">False</Property>
+              <Property name="Override">False</Property>
+              <ReturnType id="ID=452" type="" isPrimitive="true" />
+            </Method>
+          </Classifier>
+          <Classifier name="globals Principal" id="ID=388" type="Module" visibility="public">
+            <Link targetName="Form1" id="ID=462" metaclass="Association Link" idref="ID=383">
+              <Property name="Directed">False</Property>
+              <Property name="Type">association</Property>
+              <Property name="Client">Form1</Property>
+              <Property name="Supplier">TForm1</Property>
+            </Link>
+            <Uses />
+            <Field fieldType="Field" elementName="Form1" id="ID=461" typeref="ID=383" type="TForm1" isPrimitive="false" visibility="internal">
+              <Property name="Type">TForm1</Property>
+              <Property name="Const">False</Property>
+            </Field>
+          </Classifier>
+        </Package>
+        <Package name="Caixa" id="ID=374">
+          <Diagram name="Caixa" id="ID=429" metaclass="Namespace Diagram" file="default.txvpck.html">
+            <Property name="defaultDiagram">true</Property>
+            <DiagramReference id="ID=590" element="ID=380" metaclass="Namespace">
+              <Property name="Color Area">Whole Shape</Property>
+              <Property name="Gradient ON">False</Property>
+              <Property name="Gradient Mode">Vertical</Property>
+              <Property name="Gradient color 2">255, 255, 255</Property>
+              <Property name="Gradient color 1">255, 255, 255</Property>
+              <DiagramReference id="ID=592" element="ID=387" metaclass="Module" />
+              <DiagramReference id="ID=593" element="ID=381" metaclass="Class">
+                <Property name="Abstract">False</Property>
+                <Property name="Extends">Vcl.Forms.TForm</Property>
+                <Property name="Persistent">False</Property>
+                <Property name="Sealed">False</Property>
+              </DiagramReference>
+            </DiagramReference>
+            <DiagramReference id="ID=591" element="ID=375" metaclass="Namespace">
+              <Property name="Color Area">Whole Shape</Property>
+              <Property name="Gradient ON">False</Property>
+              <Property name="Gradient Mode">Vertical</Property>
+              <Property name="Gradient color 2">255, 255, 255</Property>
+              <Property name="Gradient color 1">255, 255, 255</Property>
+              <DiagramReference id="ID=610" element="ID=386" metaclass="Module" />
+              <DiagramReference id="ID=611" element="ID=376" metaclass="Class">
+                <Property name="Abstract">False</Property>
+                <Property name="Extends">Vcl.Forms.TForm</Property>
+                <Property name="Persistent">False</Property>
+                <Property name="Sealed">False</Property>
+              </DiagramReference>
+            </DiagramReference>
+          </Diagram>
+          <Package name="Operador" id="ID=380">
+            <Diagram name="Operador" id="ID=463" metaclass="Namespace Diagram" file="default.txvpck.html">
+              <Property name="defaultDiagram">true</Property>
+              <DiagramReference id="ID=635" element="ID=387" metaclass="Module">
+                <Property name="Gradient Mode">Vertical</Property>
+                <Property name="Gradient color 1">255, 255, 255</Property>
+                <Property name="Gradient ON">False</Property>
+                <Property name="Gradient color 2">255, 255, 255</Property>
+                <Property name="Color Area">Whole Shape</Property>
+                <DiagramReference id="ID=638" element="ID=595" metaclass="Association Link">
+                  <Property name="Directed">False</Property>
+                  <Property name="Type">association</Property>
+                  <Property name="Client">formOperador</Property>
+                  <Property name="Supplier">TformOperador</Property>
+                </DiagramReference>
+              </DiagramReference>
+              <DiagramReference id="ID=636" element="ID=381" metaclass="Class">
+                <Property name="Abstract">False</Property>
+                <Property name="Gradient ON">False</Property>
+                <Property name="Gradient Mode">Vertical</Property>
+                <Property name="Extends">Vcl.Forms.TForm</Property>
+                <Property name="Persistent">False</Property>
+                <Property name="Color Area">Whole Shape</Property>
+                <Property name="Gradient color 2">255, 255, 255</Property>
+                <Property name="Sealed">False</Property>
+                <Property name="Gradient color 1">255, 255, 255</Property>
+              </DiagramReference>
+            </Diagram>
+            <Classifier name="TformOperador" id="ID=381" type="Class" visibility="public">
+              <Property name="Abstract">False</Property>
+              <Property name="Extends">Vcl.Forms.TForm</Property>
+              <Property name="Persistent">False</Property>
+              <Property name="Sealed">False</Property>
+              <Extends idref="ID=48" refFN="Vcl.Forms.TForm" doom="true" />
+              <Uses>
+                <Use element="ID=594" type="field_type" />
+              </Uses>
+              <Field fieldType="Field" elementName="Label1" id="ID=596" type="TLabel" systemType="TLabel" isPrimitive="false" visibility="public">
+                <Property name="Type">TLabel</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="ComboBox1" id="ID=597" type="TComboBox" systemType="TComboBox" isPrimitive="false" visibility="public">
+                <Property name="Type">TComboBox</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Button1" id="ID=598" type="TButton" systemType="TButton" isPrimitive="false" visibility="public">
+                <Property name="Type">TButton</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="DataSource1" id="ID=599" type="TDataSource" systemType="TDataSource" isPrimitive="false" visibility="public">
+                <Property name="Type">TDataSource</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="FCaixa" id="ID=602" type="String" isPrimitive="true" visibility="internal">
+                <Property name="Type">String</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Method id="ID=600" name="FormCreate" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=600_50279347" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=600" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=601" name="Button1Click" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=601_46095324" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=601" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=603" name="SelecionarOperador" isSubroutine="true" visibility="public">
+                <Parameter elementName="aGuuidCaixa" id="ID3=603_42733733" type="String" isPrimitive="true" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=603" type="" isPrimitive="true" />
+              </Method>
+            </Classifier>
+            <Classifier name="globals Operador" id="ID=387" type="Module" visibility="public">
+              <Link targetName="formOperador" id="ID=595" metaclass="Association Link" idref="ID=381">
+                <Property name="Directed">False</Property>
+                <Property name="Type">association</Property>
+                <Property name="Client">formOperador</Property>
+                <Property name="Supplier">TformOperador</Property>
+              </Link>
+              <Uses />
+              <Field fieldType="Field" elementName="formOperador" id="ID=594" typeref="ID=381" type="TformOperador" isPrimitive="false" visibility="internal">
+                <Property name="Type">TformOperador</Property>
+                <Property name="Const">False</Property>
+              </Field>
+            </Classifier>
+          </Package>
+          <Package name="Abrir" id="ID=375">
+            <Diagram name="Abrir" id="ID=465" metaclass="Namespace Diagram" file="default.txvpck.html">
+              <Property name="defaultDiagram">true</Property>
+              <DiagramReference id="ID=647" element="ID=386" metaclass="Module">
+                <Property name="Gradient Mode">Vertical</Property>
+                <Property name="Gradient color 1">255, 255, 255</Property>
+                <Property name="Gradient ON">False</Property>
+                <Property name="Gradient color 2">255, 255, 255</Property>
+                <Property name="Color Area">Whole Shape</Property>
+                <DiagramReference id="ID=650" element="ID=613" metaclass="Association Link">
+                  <Property name="Directed">False</Property>
+                  <Property name="Type">association</Property>
+                  <Property name="Client">FormAbrirCaixa</Property>
+                  <Property name="Supplier">TFormAbrirCaixa</Property>
+                </DiagramReference>
+              </DiagramReference>
+              <DiagramReference id="ID=648" element="ID=376" metaclass="Class">
+                <Property name="Abstract">False</Property>
+                <Property name="Gradient ON">False</Property>
+                <Property name="Gradient Mode">Vertical</Property>
+                <Property name="Extends">Vcl.Forms.TForm</Property>
+                <Property name="Persistent">False</Property>
+                <Property name="Color Area">Whole Shape</Property>
+                <Property name="Gradient color 2">255, 255, 255</Property>
+                <Property name="Sealed">False</Property>
+                <Property name="Gradient color 1">255, 255, 255</Property>
+              </DiagramReference>
+            </Diagram>
+            <Classifier name="TFormAbrirCaixa" id="ID=376" type="Class" visibility="public">
+              <Property name="Abstract">False</Property>
+              <Property name="Extends">Vcl.Forms.TForm</Property>
+              <Property name="Persistent">False</Property>
+              <Property name="Sealed">False</Property>
+              <Extends idref="ID=48" refFN="Vcl.Forms.TForm" doom="true" />
+              <Uses>
+                <Use element="ID=612" type="field_type" />
+              </Uses>
+              <Field fieldType="Field" elementName="ComboBox1" id="ID=614" type="TComboBox" systemType="TComboBox" isPrimitive="false" visibility="public">
+                <Property name="Type">TComboBox</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Label1" id="ID=615" type="TLabel" systemType="TLabel" isPrimitive="false" visibility="public">
+                <Property name="Type">TLabel</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Label2" id="ID=616" type="TLabel" systemType="TLabel" isPrimitive="false" visibility="public">
+                <Property name="Type">TLabel</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Button1" id="ID=617" type="TButton" systemType="TButton" isPrimitive="false" visibility="public">
+                <Property name="Type">TButton</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="DataSource1" id="ID=618" type="TDataSource" systemType="TDataSource" isPrimitive="false" visibility="public">
+                <Property name="Type">TDataSource</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="Edit1" id="ID=619" type="TEdit" systemType="TEdit" isPrimitive="false" visibility="public">
+                <Property name="Type">TEdit</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="FGuuidCaixa" id="ID=623" type="String" isPrimitive="true" visibility="internal">
+                <Property name="Type">String</Property>
+                <Property name="Class">False</Property>
+                <Property name="Const">False</Property>
+              </Field>
+              <Field fieldType="Field" elementName="GuuidCaixa" id="ID=625" type="String" isPrimitive="true" isProperty="true" visibility="public">
+                <Property name="Type">String</Property>
+                <Property name="Class">False</Property>
+                <Property name="Access">read/write</Property>
+              </Field>
+              <Method id="ID=620" name="FormCreate" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=620_51385085" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=620" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=621" name="ComboBox1Change" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=621_1442336" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=621" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=622" name="Button1Click" isSubroutine="true" visibility="public">
+                <Parameter elementName="Sender" id="ID3=622_49720363" type="TObject" systemType="TObject" isPrimitive="false" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=622" type="" isPrimitive="true" />
+              </Method>
+              <Method id="ID=624" name="SetGuuidCaixa" isSubroutine="true" visibility="internal">
+                <Parameter elementName="Value" id="ID3=624_817607" type="String" isPrimitive="true" />
+                <Property name="Abstract">False</Property>
+                <Property name="Class">False</Property>
+                <Property name="Virtual">False</Property>
+                <Property name="Final">False</Property>
+                <Property name="Reintroduce">False</Property>
+                <Property name="Override">False</Property>
+                <ReturnType id="ID=624" type="" isPrimitive="true" />
+              </Method>
+            </Classifier>
+            <Classifier name="globals Abrir" id="ID=386" type="Module" visibility="public">
+              <Link targetName="FormAbrirCaixa" id="ID=613" metaclass="Association Link" idref="ID=376">
+                <Property name="Directed">False</Property>
+                <Property name="Type">association</Property>
+                <Property name="Client">FormAbrirCaixa</Property>
+                <Property name="Supplier">TFormAbrirCaixa</Property>
+              </Link>
+              <Uses />
+              <Field fieldType="Field" elementName="FormAbrirCaixa" id="ID=612" typeref="ID=376" type="TFormAbrirCaixa" isPrimitive="false" visibility="internal">
+                <Property name="Type">TFormAbrirCaixa</Property>
+                <Property name="Const">False</Property>
+              </Field>
+            </Classifier>
+          </Package>
+        </Package>
+      </Package>
+    </Package>
+    <Classifier name="globals AppRAD" id="ID=12" type="Module" visibility="public">
+      <Uses />
+    </Classifier>
+  </Package>
+  <Package name="udmDados" id="ID=5">
+    <Diagram name="udmDados" id="ID=89" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+      <DiagramReference id="ID=665" element="ID=87" metaclass="Class">
+        <Property name="Abstract">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Extends">System.Classes.TDataModule</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=666" element="ID=88" metaclass="Module">
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <DiagramReference id="ID=667" element="ID=131" metaclass="Association Link">
+          <Property name="Directed">False</Property>
+          <Property name="Type">association</Property>
+          <Property name="Client">dmDados</Property>
+          <Property name="Supplier">TdmDados</Property>
+        </DiagramReference>
+      </DiagramReference>
+    </Diagram>
+    <Classifier name="TdmDados" id="ID=87" type="Class" visibility="public">
+      <Property name="Abstract">False</Property>
+      <Property name="Extends">System.Classes.TDataModule</Property>
+      <Property name="Persistent">False</Property>
+      <Property name="Sealed">False</Property>
+      <Extends idref="ID=102" refFN="System.Classes.TDataModule" doom="true" />
+      <Uses>
+        <Use element="ID=130" type="field_type" />
+      </Uses>
+      <Field fieldType="Field" elementName="FDConnection1" id="ID=92" type="TFDConnection" systemType="TFDConnection" isPrimitive="false" visibility="public">
+        <Property name="Type">TFDConnection</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FDPhysFBDriverLink1" id="ID=93" type="TFDPhysFBDriverLink" systemType="TFDPhysFBDriverLink" isPrimitive="false" visibility="public">
+        <Property name="Type">TFDPhysFBDriverLink</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="QueryCaixa" id="ID=94" type="TFDQuery" systemType="TFDQuery" isPrimitive="false" visibility="public">
+        <Property name="Type">TFDQuery</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="QueryVendas" id="ID=95" type="TFDQuery" systemType="TFDQuery" isPrimitive="false" visibility="public">
+        <Property name="Type">TFDQuery</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="QueryUsuarios" id="ID=96" type="TFDQuery" systemType="TFDQuery" isPrimitive="false" visibility="public">
+        <Property name="Type">TFDQuery</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="QueryAux" id="ID=97" type="TFDQuery" systemType="TFDQuery" isPrimitive="false" visibility="public">
+        <Property name="Type">TFDQuery</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="QueryClientes" id="ID=98" type="TFDQuery" systemType="TFDQuery" isPrimitive="false" visibility="public">
+        <Property name="Type">TFDQuery</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="QueryProdutos" id="ID=99" type="TFDQuery" systemType="TFDQuery" isPrimitive="false" visibility="public">
+        <Property name="Type">TFDQuery</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="QueryVendaItens" id="ID=100" type="TFDQuery" systemType="TFDQuery" isPrimitive="false" visibility="public">
+        <Property name="Type">TFDQuery</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+    </Classifier>
+    <Classifier name="globals udmDados" id="ID=88" type="Module" visibility="public">
+      <Link targetName="dmDados" id="ID=131" metaclass="Association Link" idref="ID=87">
+        <Property name="Directed">False</Property>
+        <Property name="Type">association</Property>
+        <Property name="Client">dmDados</Property>
+        <Property name="Supplier">TdmDados</Property>
+      </Link>
+      <Uses />
+      <Field fieldType="Field" elementName="dmDados" id="ID=130" typeref="ID=87" type="TdmDados" isPrimitive="false" visibility="internal">
+        <Property name="Type">TdmDados</Property>
+        <Property name="Const">False</Property>
+      </Field>
+    </Classifier>
+  </Package>
+  <Package name="uFormAbrirVenda" id="ID=6">
+    <Diagram name="uFormAbrirVenda" id="ID=136" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+    </Diagram>
+  </Package>
+  <Package name="uClasses" id="ID=7">
+    <Diagram name="uClasses" id="ID=175" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+      <DiagramReference id="ID=678" element="ID=172" metaclass="Module">
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=679" element="ID=173" metaclass="Class">
+        <Property name="Abstract">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=680" element="ID=174" metaclass="Class">
+        <Property name="Abstract">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+      </DiagramReference>
+    </Diagram>
+    <Classifier name="globals uClasses" id="ID=172" type="Module" visibility="public">
+      <Uses />
+    </Classifier>
+    <Classifier name="TOperador" id="ID=173" type="Class" visibility="public">
+      <Property name="Abstract">False</Property>
+      <Property name="Persistent">False</Property>
+      <Property name="Sealed">False</Property>
+      <Uses />
+      <Field fieldType="Field" elementName="FGuuid" id="ID=179" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Type">String</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FNome" id="ID=180" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Type">String</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Nome" id="ID=183" type="String" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Type">String</Property>
+        <Property name="Class">False</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Guuid" id="ID=184" type="String" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Type">String</Property>
+        <Property name="Class">False</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Method id="ID=181" name="SetGuuid" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=181_18330915" type="String" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Virtual">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <ReturnType id="ID=181" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=182" name="SetNome" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=182_8409180" type="String" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Virtual">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <ReturnType id="ID=182" type="" isPrimitive="true" />
+      </Method>
+    </Classifier>
+    <Classifier name="TProduto" id="ID=174" type="Class" visibility="public">
+      <Property name="Abstract">False</Property>
+      <Property name="Persistent">False</Property>
+      <Property name="Sealed">False</Property>
+      <Uses />
+      <Field fieldType="Field" elementName="FPreco" id="ID=199" type="Currency" systemType="Currency" isPrimitive="false" visibility="internal">
+        <Property name="Type">Currency</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FDescricao" id="ID=200" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Type">String</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FGuuid" id="ID=201" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Type">String</Property>
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Guuid" id="ID=205" type="String" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Type">String</Property>
+        <Property name="Class">False</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Descricao" id="ID=206" type="String" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Type">String</Property>
+        <Property name="Class">False</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Preco" id="ID=207" type="Currency" systemType="Currency" isPrimitive="false" isProperty="true" visibility="published">
+        <Property name="Type">Currency</Property>
+        <Property name="Class">False</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Method id="ID=202" name="SetDescricao" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=202_10054985" type="String" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Virtual">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <ReturnType id="ID=202" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=203" name="SetGuuid" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=203_9147475" type="String" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Virtual">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <ReturnType id="ID=203" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=204" name="SetPreco" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=204_2748001" type="Currency" systemType="Currency" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Virtual">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <ReturnType id="ID=204" type="" isPrimitive="true" />
+      </Method>
+    </Classifier>
+  </Package>
+  <Package name="uFormOperador" id="ID=8">
+    <Diagram name="uFormOperador" id="ID=232" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+    </Diagram>
+  </Package>
+  <Package name="uFormVenderItem" id="ID=9">
+    <Diagram name="uFormVenderItem" id="ID=263" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+    </Diagram>
+  </Package>
+  <Package name="FormPrincipal" id="ID=10">
+    <Diagram name="FormPrincipal" id="ID=331" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+    </Diagram>
+  </Package>
+</Model>

@@ -1,0 +1,7 @@
+unit AppRAD.Model.DAO.Factory;
+
+interface
+
+implementation
+
+end.

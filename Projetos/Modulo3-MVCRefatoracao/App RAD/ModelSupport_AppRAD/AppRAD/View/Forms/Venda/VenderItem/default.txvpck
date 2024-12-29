@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="p7tusva4fdg6nvu3l_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.ComboBox1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Label1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Edit1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Label2" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Label3" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Label4" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Button1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.DBGrid1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Button2" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Label5" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Label6" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.DataSource1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Button3" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Edit1Change(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Button2Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.Button3Click(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.FVenda" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.ExibirVendaItens(System.string)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens.CarregarItens()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.@unitclass.formVenderItens" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.@unitclass.formVenderItens" />
+    </reference>
+  </view>
+</nodeSet>

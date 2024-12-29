@@ -1,0 +1,138 @@
+unit AppRAD.View.Forms.Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.FB,
+  FireDAC.Phys.FBDef, FireDAC.VCLUI.Wait, FireDAC.Stan.Param, FireDAC.DatS,
+  FireDAC.DApt.Intf, FireDAC.DApt, Data.DB, Vcl.StdCtrls, Vcl.Grids,
+  Vcl.DBGrids, FireDAC.Phys.IBBase, FireDAC.Comp.DataSet, FireDAC.Comp.Client,
+  udmDados,
+  AppRAD.View.Forms.Caixa.Abrir, AppRAD.View.Forms.Venda.Abrir,
+  AppRAD.View.Forms.Caixa.Operador, AppRAD.View.Forms.Venda.VenderItem,
+  AppRAD.Model.DAO.Intefaces, AppRAD.Model.Entity.CAIXA, Vcl.Mask, Vcl.DBCtrls;
+
+type
+  TForm1 = class(TForm)
+    DBGrid1: TDBGrid;
+    DataSource1: TDataSource;
+    Button1: TButton;
+    DBGrid2: TDBGrid;
+    DataSource2: TDataSource;
+    Button2: TButton;
+    Button4: TButton;
+    DBGrid3: TDBGrid;
+    DataSource3: TDataSource;
+    Button3: TButton;
+    Button5: TButton;
+    Button6: TButton;
+    DBEdit1: TDBEdit;
+    DBEdit2: TDBEdit;
+    procedure Button1Click(Sender: TObject);
+    procedure DataSource2DataChange(Sender: TObject; Field: TField);
+    procedure Button2Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
+  private
+
+    FCAIXADAO : iDAOGeneric<TCAIXA>;
+
+    procedure CarregarVendasCaixa;
+    procedure ListarCaixas;
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+{$R *.dfm}
+
+
+implementation
+
+uses
+  AppRAD.Model.DAO.SQL;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  ListarCaixas;
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+  FormAbrirCaixa.ShowModal;
+  formOperador.SelecionarOperador(FormAbrirCaixa.GuuidCaixa);
+  ListarCaixas;
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+  FCAIXADAO.Find;
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+  formAbrirVenda.AbrirVenda(dmDados.QueryCaixa.FieldByName('ID').AsString);
+  CarregarVendasCaixa;
+  formVenderItens := TformVenderItens.Create(Self);
+  formVenderItens.ExibirVendaItens(formAbrirVenda.GuuidVenda);
+  CarregarVendasCaixa;
+end;
+
+procedure TForm1.Button5Click(Sender: TObject);
+begin
+
+  with FCAIXADAO.NewObject do
+  begin
+    DATAABERTURA := Now;
+    DATAFECHAMENTO := Now;
+    STATUS := DBEdit2.Text;
+    VALORABERTURA := 100;
+  end;
+
+  FCAIXADAO.Insert;
+end;
+
+procedure TForm1.Button6Click(Sender: TObject);
+begin
+  ShowMessage(
+    DataSource3.DataSet.FieldByName('ID').AsString
+  )
+end;
+
+procedure TForm1.CarregarVendasCaixa;
+begin
+  dmDados.QueryVendas.Close;
+  dmDados.QueryVendas.SQL.Clear;
+  dmDados.QueryVendas.SQL.Add('SELECT * FROM VENDA WHERE CAIXA = :CAIXA');
+  dmDados.QueryVendas.ParamByName('CAIXA').Value := dmDados.QueryCaixa.FieldByName('ID').AsString;
+  dmDados.QueryVendas.Open;
+end;
+
+procedure TForm1.ListarCaixas;
+begin
+  dmDados.QueryCaixa.Close;
+  dmDados.QueryCaixa.SQL.Clear;
+  dmDados.QueryCaixa.SQL.Add('SELECT * FROM CAIXA ORDER BY DATAABERTURA');
+  dmDados.QueryCaixa.Open;
+end;
+
+procedure TForm1.DataSource2DataChange(Sender: TObject; Field: TField);
+begin
+  CarregarVendasCaixa;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  FCAIXADAO := TModelDAOSQL<TCAIXA>.New.DataSource(DataSource3);
+end;
+
+end.

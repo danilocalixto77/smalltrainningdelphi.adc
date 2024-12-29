@@ -1,0 +1,114 @@
+unit AppRAD.Model.DAO.SQL;
+
+interface
+
+uses
+  Data.DB,
+  SimpleInterface,
+  SimpleDAO,
+  SimpleAttributes,
+  SimpleQueryFiredac,
+  AppRAD.Model.DAO.Intefaces;
+
+
+type
+  TModelDAOSQL<T : class,constructor> = class(TInterfacedObject, iDAOGeneric<T>)
+    private
+      FConn : iSimpleQuery;
+      FDAO : iSimpleDAO<T>;
+      FDataSource : TDataSource;
+      FObject : T;
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iDAOGeneric<T>;
+      function Insert : iDAOGeneric<T>;
+      function Update : iDAOGeneric<T>;
+      function Find : iDAOGeneric<T>; overload;
+      function Find (const aID : String ) : iDAOGeneric<T>; overload;
+      function Delete : iDAOGeneric<T>;
+      function DataSource ( aValue : TDataSource ) : iDAOGeneric<T>;
+      function Current : T;
+      function NewObject : T;
+  end;
+
+implementation
+
+uses
+  AppRAD.Model.Connection.Firedac;
+
+{ TModelDAOSQL<T> }
+
+constructor TModelDAOSQL<T>.Create;
+begin
+  FDataSource := TDataSource.Create(nil);
+  FConn := TSimpleQueryFiredac.New(TModelConnectionFiredac.New.Connection);
+  FDAO := TSimpleDAO<T>.New(FConn).DataSource(FDataSource);
+end;
+
+function TModelDAOSQL<T>.Current: T;
+begin
+  Result := FObject;
+end;
+
+function TModelDAOSQL<T>.DataSource(aValue: TDataSource): iDAOGeneric<T>;
+begin
+  Result := Self;
+  aValue.DataSet := FDataSource.DataSet;
+end;
+
+function TModelDAOSQL<T>.Delete: iDAOGeneric<T>;
+begin
+  Result := Self;
+  FDAO.Delete(FObject);
+end;
+
+destructor TModelDAOSQL<T>.Destroy;
+begin
+  FDataSource.Free;
+
+  if Assigned(FObject) then
+    FObject.Free;
+
+  inherited;
+end;
+
+function TModelDAOSQL<T>.Find(const aID: String): iDAOGeneric<T>;
+begin
+  Result := Self;
+  FDAO.Find(StrToInt(aId));
+end;
+
+function TModelDAOSQL<T>.Find: iDAOGeneric<T>;
+begin
+  Result := Self;
+  FDAO.Find;
+end;
+
+function TModelDAOSQL<T>.Insert: iDAOGeneric<T>;
+begin
+  Result := Self;
+  FDAO.Insert(FObject);
+end;
+
+class function TModelDAOSQL<T>.New: iDAOGeneric<T>;
+begin
+    Result := Self.Create;
+end;
+
+function TModelDAOSQL<T>.NewObject: T;
+begin
+  if Assigned(FObject) then
+    FObject.Free;
+
+  FObject := T.Create;
+  Result := FObject;
+end;
+
+function TModelDAOSQL<T>.Update: iDAOGeneric<T>;
+begin
+  Result := Self;
+  FDAO.Update(FObject);
+end;
+
+end.

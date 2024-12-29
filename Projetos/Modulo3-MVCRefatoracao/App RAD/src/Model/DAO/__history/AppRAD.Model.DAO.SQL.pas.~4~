@@ -1,0 +1,67 @@
+unit AppRAD.Model.DAO.SQL;
+
+interface
+
+uses
+  AppRAD.Model.DAO.Intefaces, Data.DB;
+
+type
+  TModelDAOSQL<T : class,constructor> = class(TInterfacedObject, iDAOGeneric<T>)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iDAOGeneric<T>;
+      function Insert : iDAOGeneric<T>;
+      function Update : iDAOGeneric<T>;
+      function Find : iDAOGeneric<T>;
+      function Delete : iDAOGeneric<T>;
+      function DataSource ( aValue : TDataSource ) : iDAOGeneric<T>;
+  end;
+
+implementation
+
+{ TModelDAOSQL<T> }
+
+constructor TModelDAOSQL<T>.Create;
+begin
+
+end;
+
+function TModelDAOSQL<T>.DataSource(aValue: TDataSource): iDAOGeneric<T>;
+begin
+  Result := Self;
+end;
+
+function TModelDAOSQL<T>.Delete: iDAOGeneric<T>;
+begin
+  Result := Self;
+end;
+
+destructor TModelDAOSQL<T>.Destroy;
+begin
+
+  inherited;
+end;
+
+function TModelDAOSQL<T>.Find: iDAOGeneric<T>;
+begin
+  Result := Self;
+end;
+
+function TModelDAOSQL<T>.Insert: iDAOGeneric<T>;
+begin
+  Result := Self;
+end;
+
+class function TModelDAOSQL<T>.New: iDAOGeneric<T>;
+begin
+    Result := Self.Create;
+end;
+
+function TModelDAOSQL<T>.Update: iDAOGeneric<T>;
+begin
+  Result := Self;
+end;
+
+end.

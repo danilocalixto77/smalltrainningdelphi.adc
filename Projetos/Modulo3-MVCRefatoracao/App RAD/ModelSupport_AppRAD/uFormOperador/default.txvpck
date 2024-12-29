@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="ux11q39bhlkhaee8n_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:AppRAD:uFormOperador.TformOperador">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormOperador.TformOperador.Label1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormOperador.TformOperador.ComboBox1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormOperador.TformOperador.Button1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormOperador.TformOperador.DataSource1" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uFormOperador.TformOperador.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uFormOperador.TformOperador.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormOperador.TformOperador.FCaixa" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uFormOperador.TformOperador.SelecionarOperador(System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AppRAD:uFormOperador.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormOperador.@unitclass.formOperador" />
+      <reference referencedUin="delphi:l_ast:src:AppRAD:uFormOperador.@unitclass.formOperador" />
+    </reference>
+  </view>
+</nodeSet>

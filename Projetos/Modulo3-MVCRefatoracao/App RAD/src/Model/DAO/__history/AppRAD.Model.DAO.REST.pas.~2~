@@ -1,0 +1,37 @@
+unit AppRAD.Model.DAO.REST;
+
+interface
+
+uses
+  AppRAD.Model.DAO.Intefaces;
+
+type
+  TModelDAOREST<T : class, constructor> = class(TInterfacedObject, iDAOGeneric<T>)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iDAOGeneric<T>;
+  end;
+
+implementation
+
+{ TModelDAOREST<T> }
+
+constructor TModelDAOREST<T>.Create;
+begin
+
+end;
+
+destructor TModelDAOREST<T>.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelDAOREST<T>.New: iDAOGeneric<T>;
+begin
+    Result := Self.Create;
+end;
+
+end.
