@@ -2,19 +2,19 @@
 
 ## Boas Vindas (1 Aulas)
 
-### Grupo de Alunos
+#### Grupo de Alunos
 
 ## Orientação a Objetos, Fluent Interface e Padrões de Projeto (14 Aulas)
 
-### O que iremos ver no Small Trainning
+#### O que iremos ver no Small Trainning
 
-### Pensar na aplicação antes de escrever
+#### Pensar na aplicação antes de escrever
 
-### Criando projeto de pedidos e promoção
+#### Criando projeto de pedidos e promoção
 
   Criando um projeto e demonstrando a forma RAD de desenvolvimento com as implementações todas dentro do componente.
 
-### Usando Interface para trabalhar validações de regras
+#### Usando Interface para trabalhar validações de regras
 
   Utilizando o projeto já criáo e refatorando a funcionalidade demonstrada no modo RAD, criando uma interface.
   
@@ -22,7 +22,7 @@
   
   Criação da Classe: Produto.pas
 
-### Eliminando casting na view
+#### Eliminando casting na view
 
   Exemplicação do padrão de projeto Fluente.
 
@@ -32,11 +32,11 @@
 
   **IF** imutável, é o tipo em que se aplica a utilização de ifs.
 
-### Validando e dando foco no componente visual
+#### Validando e dando foco no componente visual
 
   Desenvolvido um método com um esboço de como setar o focus em um componente após exception.
 
-### Centralizando regras fiscais com helpers
+#### Centralizando regras fiscais com helpers
 
   Utilizando o: Helper
 
@@ -46,13 +46,13 @@
 
   Adicionado comportamento no componente de acordo com o que for preenchido no Enum.
 
-### Utilizando eventos para exibir mensagem na tela
+#### Utilizando eventos para exibir mensagem na tela
 
   Criando function utilizando TProc<>
 
   TProc<> é um método anônimo.
 
-### Especializando a classe de regras fiscais
+#### Especializando a classe de regras fiscais
 
   Especialização da classe Produto
 
@@ -61,14 +61,14 @@
 
   Criação de CodeTemplate. Para criação as explicações estão nesta aula. 
 
-### Especializando o Enumerado com as classes helpers
+#### Especializando o Enumerado com as classes helpers
 
-### Compreendendo o objetivo da classe fechada para modificação e aberto para expanção
+#### Compreendendo o objetivo da classe fechada para modificação e aberto para expanção
 
   Criação da classe de imposto:
   LucroPresumido
 
-### Implementando classe de gravação de log
+#### Implementando classe de gravação de log
 
   Reestruturação das pastas do projeto.
 
@@ -86,7 +86,7 @@
 
   Model.Log
 
-### Preparando a classe de log para expansão com o padrão decorator
+#### Preparando a classe de log para expansão com o padrão decorator
 
   Modificando os Constructo, Destructor e class Function New.
 
@@ -124,15 +124,15 @@
   end;
   ```
 
-### Fontes do módulo
+#### Fontes do módulo
 
 ## MVC e Refatoração de Projetos (32 aulas)
 
-### Destravar é preciso
+#### Destravar é preciso
 
-### Overview do PDV totalmente RAD
+#### Overview do PDV totalmente RAD
 
-### Criando a camada view
+#### Criando a camada view
 
   Primeiro passo da refatoração de um projeto RAD, é retirar a conexão do banco de um componente e criar a classe de conexão.
 
@@ -151,20 +151,20 @@
   \Controller
 
 
-### Entendendo a estrutura de um projeto com vida longa	
+#### Entendendo a estrutura de um projeto com vida longa	
 
   Conforme boas práticas do clean code que seria trabalhar orientado a interface e não a uma classe.
 
   Explicações com diagrama(LucidChart) das conexões entre as camadas MVC.
 
 
-### Implementando as conexões
+#### Implementando as conexões
 
   Firedac: Implementando a classe de conexão.
 
   Utilizando padrão de projeto singleton para a conexão.
 
-### Como utilizar um ORM em sua aplicação
+#### Como utilizar um ORM em sua aplicação
 
   Utilizando o SimpleORM para criação de JSON. Passo a passo de como add o SimpleORM do github e add no Delph.
 
@@ -172,24 +172,24 @@
 
   SimpleORM transforma os objetos em SQL.
 
-### Criando o DAO genérico
+#### Criando o DAO genérico
 
   Criando o DAO para o SQL.
 
   Explicação do funcionamento da Classe e da Interface.
 
-### Considerações da classe DAO genérica
+#### Considerações da classe DAO genérica
 
   Explicações de como implementar para os diversos modos de tecnologias, explicação panorâmica. Sem detalhes técnicos. Pegado a ideia do funcionamento.
 
 
-### Entendendo como funciona os métodos do DAO
+#### Entendendo como funciona os métodos do DAO
 
   Utilizar o SimpleORM que já possuir o DAO, que será re-utilizado.
 
   Criando uma conexaão buscando os dados a partir da conexão pela classe e trazendo os dados no grid.
 
-### Implementando os métodos da classe DAO do SQL
+#### Implementando os métodos da classe DAO do SQL
 
   Implementando:
 
@@ -215,11 +215,11 @@
 
   Métodos declarado mas implementação serão nas próximas aulas.
 
-### Implementando o Controller de objeto genérico
+#### Implementando o Controller de objeto genérico
 
-### Criando o Controller que a view irá trabalhar
+#### Criando o Controller que a view irá trabalhar
 
-### Implementando as requisições da view ao controller
+#### Implementando as requisições da view ao controller
 
 Overview do projeto até o momento.
 
@@ -227,56 +227,65 @@ Retirada de vários acomplamentos do form principal.
 
 Explicações da conexão e como o projeto está organizado.
   
-### Considerações das possíveis opções para o DAO
+#### Considerações das possíveis opções para o DAO
 
-### O beneficio da organização da construção da tela
+#### O beneficio da organização da construção da tela
 
 
-### Especializando o controllers do caixa
+#### Especializando o controllers do caixa
 
 Especializando um módulo, no caso o caixa, implementando uma interface especializada com os métodos do caixa.
 
-### Especializando o Model DAO para o mestre detalhe
+#### Especializando o Model DAO para o mestre detalhe
 
-### Recapitulando o que fizemos no Controllers e DAOs
+#### Recapitulando o que fizemos no Controllers e DAOs
 
-### Implementando a Factory da camada View
+#### Implementando a Factory da camada View
 
 Nesta etapa do curso o formulários que ficariam acoplados normalmente em uma unit menuprincipal por exemplo, passa se ser chamadas ou criadas a partrir de uma factory, esta será a responsável pela chamada e construção desses formulários. E o formulário principal terá com acomplamento mínimo que será somente junto a factory.
 
-### Especializando o Controller Usuário da tela abrir caixa
+#### Especializando o Controller Usuário da tela abrir caixa
 
 Refatoração da tela de abertura de caixa.
 
 Adicionado na iController Usuarios.
 
-### Os prós de uma boa refatoração
+#### Os prós de uma boa refatoração
 
-### Refatorando o Insert da abertura do caixa
+#### Refatorando o Insert da abertura do caixa
 
-### Refatorando a tela de operador
+#### Refatorando a tela de operador
 
-### Ajustando o abrir caixa
+#### Ajustando o abrir caixa
 
-### Criando a tela de seleção de cliente para abertua da venda
+#### Criando a tela de seleção de cliente para abertua da venda
 
-### Especializando o Controller Cliente da tela abrir venda
+#### Especializando o Controller Cliente da tela abrir venda
 
-### Implemetando o Controller de Produto para a tela de venda itens
+#### Implemetando o Controller de Produto para a tela de venda itens
 
-### Refatorando o quantidade da tela de venda itens
+#### Refatorando o quantidade da tela de venda itens
 
-### Refatorando o adicionar itens da tela de venda itens
+#### Refatorando o adicionar itens da tela de venda itens
 
-### Refatorando o remover itens da tela de venda itens
+#### Refatorando o remover itens da tela de venda itens
 
-### Refatorando o finalizar venda da tela de venda itens
+#### Refatorando o finalizar venda da tela de venda itens
+
+#### Fontes do módulo
+
+## MVC e Reutilização de Código em Servidore e Arquiteturas MultiCamadas
+
+#### O que já vimos até arquivo
+
+#### Preparando o ambiente para a criação do servidor de aplicação
 
 
 
 
 
----
+
+
 ---
 ---
 
