@@ -264,6 +264,18 @@ Adicionado na iController Usuarios.
 
 ### Implemetando o Controller de Produto para a tela de venda itens
 
+### Refatorando o quantidade da tela de venda itens
+
+### Refatorando o adicionar itens da tela de venda itens
+
+### Refatorando o remover itens da tela de venda itens
+
+### Refatorando o finalizar venda da tela de venda itens
+
+
+
+
+
 
 ---
 ---
