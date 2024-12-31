@@ -191,29 +191,19 @@
 
 #### 3.10 -  Implementando os métodos da classe DAO do SQL
 
-  Implementando:
+**Implementando**:
 
-  New
-
-  Insert
-
-  Update
-
-  Delete
-
-  Através do objeto.
-
-  Métodos Find's por: Id, Por lista de objetos todos com (overload) sobrecarga do método find.
-
-  Método Query
-
-  Método DataSet
-
-  Método LastId
-
-  Método DataChange
-
-  Métodos declarado mas implementação serão nas próximas aulas.
+    New
+    Insert
+    Update
+    Delete
+    Através do objeto.
+    Métodos Find's por: Id, Por lista de objetos todos com (overload) sobrecarga do método find.
+    Método Query
+    Método DataSet
+    Método LastId
+    Método DataChange
+    Métodos declarado mas implementação serão nas próximas aulas.
 
 #### 3.11 -  Implementando o Controller de objeto genérico
 
@@ -226,7 +216,7 @@ Overview do projeto até o momento.
 Retirada de vários acomplamentos do form principal.
 
 Explicações da conexão e como o projeto está organizado.
-  
+
 #### 3.14 -  Considerações das possíveis opções para o DAO
 
 #### 3.15 -  O beneficio da organização da construção da tela
@@ -284,7 +274,7 @@ Criando um projeto novo do tipo **console**, para este iremos criar com o nome d
 
     AppServer
 
-**Boss** : Gerenciador de pacotes para o Delphi
+**Boss** : Gerenciador de pacotes para o Delphi. Tem a funcionalidade de fazer o download de arquivos do **github** instalar no Delphi, já inserindo esses componentes desses arquivos baixados no ***library path*** fazendo todo esse gerenciamento para o desenvolvedor.
 
 **Instalando o Boss** Vá no link abaixo e faça o download:
 
