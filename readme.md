@@ -284,7 +284,7 @@ Logo mais abaixo da página do GuitHub encontrá
 
 
 <p align="center">
-  <img width="480" src="Imagens/001Boss.png">
+  <img width="480" src="Imagens/001Boss.PNG">
 </p>
 
 
