@@ -276,9 +276,9 @@ Adicionado na iController Usuarios.
 
 ## 4 - MVC e Reutilização de Código em Servidore e Arquiteturas MultiCamadas
 
-#### O que já vimos até arquivo
+#### 4.1 - O que já vimos até arquivo
 
-#### Preparando o ambiente para a criação do servidor de aplicação
+#### 4.2 - Preparando o ambiente para a criação do servidor de aplicação
 
 Criando um projeto novo do tipo **console**, para este iremos criar com o nome de:
 
@@ -293,7 +293,6 @@ Criando um projeto novo do tipo **console**, para este iremos criar com o nome d
 
 Revisar aula
 
-criar server app console 
 baixar demais componentes
 inserir detalhes dos passo a passo
 inserir o link do 
