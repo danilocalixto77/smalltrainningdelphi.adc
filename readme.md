@@ -280,6 +280,26 @@ Adicionado na iController Usuarios.
 
 #### Preparando o ambiente para a criação do servidor de aplicação
 
+Boss : Gerenciador de pacotes para o Delphi
+
+[GuitHub para download do Boss](https://github.com/hashload/boss)
+
+
+Revisar aula
+
+criar server app console
+baixar demais componentes
+inserir detalhes dos passo a passo
+inserir o link do 
+
+horse
+serializer
+gbjason
+Jhonson
+
+
+
+
 ..........
 
 ### Proxima aula...
