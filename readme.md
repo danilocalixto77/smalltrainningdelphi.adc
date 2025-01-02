@@ -280,8 +280,7 @@ Criando um projeto novo do tipo **console**, para este iremos criar com o nome d
 
 [GuitHub para download do Boss](https://github.com/hashload/boss)
 
-Logo mais abaixo da página do GuitHub encontrá 
-
+Logo mais abaixo da página do GuitHub encontrá o link para Download:
 
 <p align="center">
   <img width="480" src="Imagens/001Boss.PNG">
@@ -338,8 +337,7 @@ Jhonson
   Funciton AbrirForm(Owner : TForm) : Object
 
  
-
-
+---
 ---
 ---
 ---
