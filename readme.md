@@ -274,7 +274,7 @@ Criando um projeto novo do tipo **console**, para este iremos criar com o nome d
 
     AppServer
 
-**Boss** : Gerenciador de pacotes para o Delphi. Tem a funcionalidade de fazer o download de arquivos do **github** instalar no Delphi, já inserindo esses componentes desses arquivos baixados no ***library path*** fazendo todo esse gerenciamento para o desenvolvedor.
+**Boss** : Gerenciador de pacotes/bibliotecas para o Delphi. Tem a funcionalidade de fazer o download de arquivos do **github** instalar no Delphi, já inserindo esses componentes desses arquivos baixados no ***library path*** fazendo todo esse gerenciamento para o desenvolvedor.
 
 **Instalando o Boss** Vá no link abaixo e faça o download:
 
@@ -287,6 +287,25 @@ Faça a instalação, e após a instalação a variável de ambiente do **Boss**
 <p align="center">
   <img width="480" src="Imagens/001Boss.PNG">
 </p>
+
+Após a instação de configuração global do boss, o mesmo deve ser iniciado no projeto:
+
+  - Ir na pasta do projeto e digitar o comando:
+
+        boss init
+
+  - Após a inicialização do boss, poderá observar na pasta do projeto que foram criados os arquivos:
+
+        boss.json
+        boss-lock.json
+
+A partir daqui podemos instalar os outros componentes que serão utilizado para este projeto.
+
+Componentes para instalar na preparação deste projeto:
+
+**Dataset-Serialize**
+
+
 
 
 
