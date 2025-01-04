@@ -290,8 +290,8 @@ Faça a instalação, e após a instalação a variável de ambiente do **Boss**
 
 
 
-Continuar a partir do boss....
-
+Continuar a partir do boss.... 
+Descrever tópicos abaixo com as explicações ....
 baixar demais componentes
 inserir detalhes dos passo a passo
 inserir o link do 
