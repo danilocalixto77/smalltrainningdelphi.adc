@@ -323,16 +323,16 @@ Midware adicional para se trabalhar com json no horse:
 
     boss install jhonson
 
+**Github GBJson**
 
-6:17m
+[Github GBJson - Gabriel Baltazar](https://github.com/gabrielbaltazar/GBJSON)
 
-gbjason
+Componente tem a função de converter objeto para json e json para objeto.
+
+    boss install https://github.com/gabrielbaltazar/GBJSON
 
 
-
-
-
-..........
+Após instalação dos componentes todos podem ser encontrados dentro da masta \modules do projeto.
 
 ### Proxima aula...
 
