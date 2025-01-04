@@ -305,20 +305,29 @@ Componentes para instalar na preparação deste projeto:
 
 **Dataset-Serialize**
 
+[Github Dataset Serialize](https://github.com/viniciussanchez/dataset-serialize)
 
 
+    boss install github.com/viniciussanchez/dataset-serialize
 
 
-Continuar a partir do boss.... 
-Descrever tópicos abaixo com as explicações ....
-baixar demais componentes
-inserir detalhes dos passo a passo
-inserir o link do 
+**Horse**
 
-horse
-serializer
+[Github Horse](https://github.com/HashLoad/horse)
+
+    boss install horse
+
+Midware adicional para se trabalhar com json no horse:
+
+[Github Horse JSON - Jhonson](https://github.com/HashLoad/jhonson)
+
+    boss install jhonson
+
+
+6:17m
+
 gbjason
-Jhonson
+
 
 
 
