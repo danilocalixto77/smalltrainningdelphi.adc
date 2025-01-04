@@ -290,7 +290,7 @@ Faça a instalação, e após a instalação a variável de ambiente do **Boss**
 
 
 
-Revisar aula
+Continuar a partir do boss....
 
 baixar demais componentes
 inserir detalhes dos passo a passo
