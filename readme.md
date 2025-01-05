@@ -268,7 +268,9 @@ Adicionado na iController Usuarios.
 
 #### 4.1 - O que já vimos até arquivo
 
-#### 4.2 - Preparando o ambiente para a criação do servidor de aplicação
+#### 4.2 - Separando o projeto em bpl
+
+#### 4.3 - Preparando o ambiente para a criação do servidor de aplicação
 
 Criando um projeto novo do tipo **console**, para este iremos criar com o nome de:
 
@@ -333,6 +335,37 @@ Componente tem a função de converter objeto para json e json para objeto.
 
 
 Após instalação dos componentes todos podem ser encontrados dentro da masta \modules do projeto.
+
+#### 4.4 - Criando o servidor de aplicação
+
+#### 4.5 - Pensar no futuro da aplicação
+
+#### 4.6 - Implementando o verbo POST para a caixa
+
+#### 4.7 - Implementando os verbos para as vendas
+
+#### 4.8 - Considerações para o servidor de aplicação com as boas práticas de progamação
+
+#### 4.9 - Implementando os controllers do servidor de aplicação
+
+#### 4.10 - Perguntas e repostas
+
+#### 4.11 - Implementando BaseURL e classe RTTI para trabalhar o DAO Result
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Proxima aula...
 
