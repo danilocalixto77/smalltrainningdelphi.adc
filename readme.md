@@ -350,7 +350,26 @@ Após instalação dos componentes todos podem ser encontrados dentro da masta \
 
 #### 4.10 - Perguntas e repostas
 
-#### 4.11 - Implementando BaseURL e classe RTTI para trabalhar o DAO Result
+#### 4.11 - Implementando BaseURL e classe RTTI para trabalhar o DAO REST
+
+#### 4.12 - Implementada o DAO REST
+
+    ParamStr() exemplo de uso, com orientações.
+
+#### 4.13 - Especializando o método venda do DAO REST
+
+Utilizar o RESTRequest4Delphi, caso não tenha na pasta modules na primeira instalação. Instalar o REST request:
+
+[Github viniciussanchez - RESTRequest4Delphi](https://github.com/viniciussanchez/RESTRequest4Delphi)
+
+    boss install github.com/viniciussanchez/RESTRequest4Delphi
+
+
+
+
+
+
+
 
 
 
