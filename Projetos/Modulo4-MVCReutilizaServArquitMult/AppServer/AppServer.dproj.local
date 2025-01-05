@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/09/01 15:54:51.000.903,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/01 16:38:44.000.074,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 09:23:45.495,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\AppServer.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/10/17 09:35:20.689,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 09:35:44.967,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\src\Controller\AppServer.Controller.Caixa.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 09:43:16.413,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 09:43:25.522,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\src\Controller\AppServer.Controller.Venda.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 10:01:04.325,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 10:01:13.560,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\src\Controller\AppServer.Controller.Cliente.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 10:02:14.213,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 10:02:23.032,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\src\Controller\AppServer.Controller.Produto.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 10:03:43.287,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 10:03:51.463,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\src\Controller\AppServer.Controller.Usuario.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 10:06:07.206,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+    <Transaction>2020/10/17 10:06:18.428,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\src\Controller\AppServer.Controller.VendaItens.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020\AppServer\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

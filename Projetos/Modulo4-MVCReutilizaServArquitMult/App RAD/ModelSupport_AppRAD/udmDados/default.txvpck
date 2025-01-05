@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="0t4acipkujkar6qpl_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:AppRAD:udmDados.TdmDados">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:udmDados.TdmDados.FDConnection1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:udmDados.TdmDados.FDPhysFBDriverLink1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:udmDados.TdmDados.QueryCaixa" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:udmDados.TdmDados.QueryVendas" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:udmDados.TdmDados.QueryUsuarios" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:udmDados.TdmDados.QueryAux" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:udmDados.TdmDados.QueryClientes" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:udmDados.TdmDados.QueryProdutos" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:udmDados.TdmDados.QueryVendaItens" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AppRAD:udmDados.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:udmDados.@unitclass.dmDados" />
+      <reference referencedUin="delphi:l_ast:src:AppRAD:udmDados.@unitclass.dmDados" />
+    </reference>
+  </view>
+</nodeSet>

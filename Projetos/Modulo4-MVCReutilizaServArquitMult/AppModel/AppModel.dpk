@@ -1,0 +1,56 @@
+package AppModel;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  dbrtl,
+  RESTComponents,
+  vclFireDAC,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon,
+  FireDACIBDriver;
+
+contains
+  AppRAD.Model.Connection.Firedac in 'src\Connection\Firedac\AppRAD.Model.Connection.Firedac.pas',
+  AppRAD.Model.DAO.Factory in 'src\DAO\AppRAD.Model.DAO.Factory.pas',
+  AppRAD.Model.DAO.Intefaces in 'src\DAO\AppRAD.Model.DAO.Intefaces.pas',
+  AppRAD.Model.DAO.REST in 'src\DAO\AppRAD.Model.DAO.REST.pas',
+  AppRAD.Model.DAO.SQL in 'src\DAO\AppRAD.Model.DAO.SQL.pas',
+  AppRAD.Model.Entity.CAIXA in 'src\Entity\AppRAD.Model.Entity.CAIXA.pas',
+  AppRAD.Model.Entity.CLIENTE in 'src\Entity\AppRAD.Model.Entity.CLIENTE.pas',
+  AppRAD.Model.Entity.PRODUTO in 'src\Entity\AppRAD.Model.Entity.PRODUTO.pas',
+  AppRAD.Model.Entity.USUARIO in 'src\Entity\AppRAD.Model.Entity.USUARIO.pas',
+  AppRAD.Model.Entity.VENDA in 'src\Entity\AppRAD.Model.Entity.VENDA.pas',
+  AppRAD.Model.Entity.VENDAITENS in 'src\Entity\AppRAD.Model.Entity.VENDAITENS.pas',
+  AppRAD.Model.Connection.Interfaces in 'src\Connection\AppRAD.Model.Connection.Interfaces.pas';
+
+end.

@@ -1,0 +1,46 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2020-10-17T09:27:15.6507639-03:00",
+	"installedModules": {
+		"github.com/hashload/horse": {
+			"name": "horse",
+			"version": "1.7.8",
+			"hash": "533f53d4f7f3f64544271a4dda9c227c",
+			"artifacts": {},
+			"failed": false,
+			"changed": true
+		},
+		"https://github.com/gabrielbaltazar/gbjson": {
+			"name": "gbjson",
+			"version": "1.0.5",
+			"hash": "b0609d33ae19e081c1547eadd776eb5e",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/hashload/horse": {
+			"name": "horse",
+			"version": "v2.0.2",
+			"hash": "533f53d4f7f3f64544271a4dda9c227c",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/hashload/jhonson": {
+			"name": "jhonson",
+			"version": "1.0.6",
+			"hash": "8a9fbc30fe30e276c369aa02adc425e0",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/viniciussanchez/dataset-serialize": {
+			"name": "dataset-serialize",
+			"version": "v2.2.0",
+			"hash": "243141f50f27fc39b1ef83733f480989",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		}
+	}
+}

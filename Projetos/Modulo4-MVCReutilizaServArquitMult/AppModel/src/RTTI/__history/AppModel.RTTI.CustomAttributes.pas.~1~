@@ -1,0 +1,7 @@
+unit AppModel.RTTI.CustomAttributes;
+
+interface
+
+implementation
+
+end.

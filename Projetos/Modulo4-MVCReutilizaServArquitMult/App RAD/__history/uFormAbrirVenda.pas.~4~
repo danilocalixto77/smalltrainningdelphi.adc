@@ -1,0 +1,83 @@
+unit uFormAbrirVenda;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, udmDados;
+
+type
+  TForm2 = class(TForm)
+    Label1: TLabel;
+    ComboBox1: TComboBox;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+    FCaixa : String;
+  public
+    { Public declarations }
+    procedure AbrirVenda ( aGuuidCaixa : String );
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+uses
+  uUsuario;
+
+{$R *.dfm}
+
+{ TForm2 }
+
+procedure TForm2.AbrirVenda(aGuuidCaixa: String);
+begin
+  FCaixa := aGuuidCaixa;
+  Self.ShowModal;
+end;
+
+procedure TForm2.Button1Click(Sender: TObject);
+begin
+  dmDados.QueryAux.Close;
+  dmDados.QueryAux.SQL.Clear;
+  dmDados.QueryAux.SQL.Add('INSERT INTO VENDA (GUUID, CLIENTE, CAIXA, SERIE, DATAABERTURA, STATUS) VALUES (:GUUID, :CLIENTE, :CAIXA, :SERIE, :DATAABERTURA, :STATUS)');
+  dmDados.QueryAux.ParamByName('GUUID').Value := TGUID.NewGuid.ToString;
+  dmDados.QueryAux.ParamByName('CAIXA').Value := dmDados.QueryCaixa.FieldByName('GUUID').AsString;
+  dmDados.QueryAux.ParamByName('CLIENTE').Value := TOperador(ComboBox1.Items.Objects[ComboBox1.ItemIndex]).Guuid;
+  dmDados.QueryAux.ParamByName('SERIE').Value := 1;
+  dmDados.QueryAux.ParamByName('DATAABERTURA').Value := Now;
+  dmDados.QueryAux.ParamByName('STATUS').Value := 0;
+  dmDados.QueryAux.ExecSQL;
+
+  Self.Close;
+end;
+
+procedure TForm2.FormCreate(Sender: TObject);
+var
+  Operador : TOperador;
+begin
+  dmDados.QueryClientes.Close;
+  dmDados.QueryClientes.SQL.Clear;
+  dmDados.QueryClientes.SQL.Add('SELECT * FROM CLIENTE');
+  dmDados.QueryClientes.Open;
+
+  ComboBox1.Items.Clear;
+
+  while not dmDados.QueryClientes.Eof do
+  begin
+    Operador := TOperador.Create;
+    Operador.Nome := dmDados.QueryClientes.FieldByName('NOME').AsString;
+    Operador.Guuid := dmDados.QueryClientes.FieldByName('GUUID').AsString;
+
+    ComboBox1.Items.AddObject(Operador.Nome, Operador);
+
+    dmDados.QueryClientes.Next;
+  end;
+
+  ComboBox1.ItemIndex := 0;
+end;
+
+end.

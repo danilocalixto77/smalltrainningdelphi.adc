@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="48lf4mtexdgpnaecr_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda.Label1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda.ComboBox1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda.Button1" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda.FCaixa" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda.FGuuidVenda" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda.SetGuuidVenda(System.string)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda.AbrirVenda(System.string)" />
+      <reference referencedUin="delphi:e_property:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda.GuuidVenda" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.@unitclass.formAbrirVenda" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.@unitclass.formAbrirVenda" />
+    </reference>
+  </view>
+</nodeSet>

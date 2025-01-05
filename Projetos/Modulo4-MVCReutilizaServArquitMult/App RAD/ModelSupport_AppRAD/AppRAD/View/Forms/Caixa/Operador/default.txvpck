@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="wpbhip0fneg8u27yt_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.@unitclass.formOperador" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.@unitclass.formOperador" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.TformOperador">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.TformOperador.Label1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.TformOperador.ComboBox1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.TformOperador.Button1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.TformOperador.DataSource1" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.TformOperador.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.TformOperador.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.TformOperador.FCaixa" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:AppRAD.View.Forms.Caixa.Operador.TformOperador.SelecionarOperador(System.string)" />
+    </reference>
+  </view>
+</nodeSet>

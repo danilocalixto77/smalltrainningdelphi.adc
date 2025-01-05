@@ -1,0 +1,69 @@
+unit AppRAD.Controller.Entity.Venda;
+
+interface
+
+uses
+  System.Classes,
+  AppRAD.Controller.Interfaces,
+  AppRAD.Model.DAO.Intefaces,
+  AppRAD.Model.Entity.Venda;
+
+type
+  TControllerEntityVenda = class(TInterfacedObject, iControllerVenda)
+    private
+      [weak]
+      FParent : iController;
+      FModel : iDAOGeneric<TVENDA>;
+    public
+      constructor Create(Parent : iController);
+      destructor Destroy; override;
+      class function New(Parent : iController) : iControllerVenda;
+      function Abrir : iControllerVenda;
+      function DAO : iDAOGeneric<TVENDA>;
+      function &End : iController;
+  end;
+
+implementation
+
+uses
+  AppRAD.Model.DAO.Factory, AppRAD.View.Forms.Factory;
+
+{ TControllerEntityVenda }
+
+function TControllerEntityVenda.&End: iController;
+begin
+  Result := FParent;
+end;
+
+function TControllerEntityVenda.Abrir: iControllerVenda;
+begin
+  with FModel.NewObject do
+  begin
+    CAIXA := IntToStr(FParent.CAIXA.DAO.Current.ID);
+
+  end;
+end;
+
+constructor TControllerEntityVenda.Create(Parent : iController);
+begin
+  FParent := Parent;
+  FModel := TModelDAOFactory<TVenda>.New.DAO;
+end;
+
+function TControllerEntityVenda.DAO: iDAOGeneric<TVenda>;
+begin
+  Result := FModel;
+end;
+
+destructor TControllerEntityVenda.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TControllerEntityVenda.New(Parent : iController) : iControllerVenda;
+begin
+    Result := Self.Create(Parent);
+end;
+
+end.

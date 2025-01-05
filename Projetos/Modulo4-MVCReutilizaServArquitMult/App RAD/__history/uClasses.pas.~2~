@@ -1,0 +1,32 @@
+unit uClasses;
+
+interface
+
+type
+
+TOperador = class
+  private
+    FGuuid: String;
+    FNome: String;
+    procedure SetGuuid(const Value: String);
+    procedure SetNome(const Value: String);
+  published
+    property Nome : String read FNome write SetNome;
+    property Guuid : String read FGuuid write SetGuuid;
+  end;
+
+implementation
+
+{ TOperador }
+
+procedure TOperador.SetGuuid(const Value: String);
+begin
+  FGuuid := Value;
+end;
+
+procedure TOperador.SetNome(const Value: String);
+begin
+  FNome := Value;
+end;
+
+end.

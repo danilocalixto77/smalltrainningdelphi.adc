@@ -1,0 +1,66 @@
+unit AppRAD.View.Forms.Factory;
+
+interface
+
+uses
+  AppRAD.View.Forms.Interfaces,
+  Vcl.Forms,
+  AppRAD.View.Forms.Caixa.Abrir,
+  AppRAD.View.Forms.Caixa.Operador,
+  AppRAD.View.Forms.Venda.Abrir,
+  AppRAD.View.Forms.Venda.VenderItem;
+
+type
+  TViewFormsFactory = class(TInterfacedObject, iViewFactory)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iViewFactory;
+      function CaixaAbrir(Owner : TForm) : TFormAbrirCaixa;
+      function OperadorSelect(Owner : TForm) : TformOperador;
+      function VendaAbrir ( Owner : TForm ) : TformAbrirVenda;
+      function VendaVenderItem ( Owner : TForm ) : TformVenderItens;
+  end;
+
+implementation
+
+{ TViewFormsFactory }
+
+function TViewFormsFactory.CaixaAbrir(Owner: TForm): TFormAbrirCaixa;
+begin
+
+end;
+
+constructor TViewFormsFactory.Create;
+begin
+
+end;
+
+destructor TViewFormsFactory.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TViewFormsFactory.New: iViewFactory;
+begin
+    Result := Self.Create;
+end;
+
+function TViewFormsFactory.OperadorSelect(Owner: TForm): TformOperador;
+begin
+
+end;
+
+function TViewFormsFactory.VendaAbrir(Owner: TForm): TformAbrirVenda;
+begin
+
+end;
+
+function TViewFormsFactory.VendaVenderItem(Owner: TForm): TformVenderItens;
+begin
+
+end;
+
+end.

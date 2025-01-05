@@ -1,0 +1,35 @@
+unit AppServer.Controller.Venda;
+
+interface
+
+uses
+  System.JSON,
+  Horse,
+  Horse.Jhonson,
+  DataSet.Serialize,
+  GBJSON.Helper,
+  AppRAD.Model.DAO.Intefaces,
+  AppRAD.Model.Entity.VENDA,
+  AppRAD.Model.DAO.Factory;
+
+procedure Registry;
+
+implementation
+
+procedure Registry;
+begin
+  THorse
+    .Use(Jhonson)
+    .Get('/vendas',
+      procedure (Req : THorseRequest; Res : THorseResponse; Next : TProc)
+      var
+        FModel : iDAOGeneric<TVENDA>;
+      begin
+        FModel := TModelDAOFactory<TVENDA>.New.DAO;
+        Res.Send<TJsonArray>(FModel.Find.DataSet.ToJSONArray);
+      end
+    )
+end;
+
+end.
+

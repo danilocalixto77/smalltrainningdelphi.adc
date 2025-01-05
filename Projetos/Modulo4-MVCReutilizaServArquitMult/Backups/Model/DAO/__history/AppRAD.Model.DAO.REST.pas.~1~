@@ -1,0 +1,7 @@
+unit AppRAD.Model.DAO.REST;
+
+interface
+
+implementation
+
+end.

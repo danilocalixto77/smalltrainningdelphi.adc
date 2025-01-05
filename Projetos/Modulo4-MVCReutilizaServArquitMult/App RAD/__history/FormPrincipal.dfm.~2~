@@ -1,0 +1,70 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 580
+  ClientWidth = 911
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBGrid1: TDBGrid
+    Left = 144
+    Top = 296
+    Width = 759
+    Height = 276
+    DataSource = DataSource1
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 8
+    Width = 130
+    Height = 41
+    Caption = 'Listar Vendas'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object DBGrid2: TDBGrid
+    Left = 144
+    Top = 8
+    Width = 759
+    Height = 282
+    DataSource = DataSource2
+    TabOrder = 2
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object Button2: TButton
+    Left = 8
+    Top = 55
+    Width = 130
+    Height = 41
+    Caption = 'Abrir Caixa'
+    TabOrder = 3
+  end
+  object DataSource1: TDataSource
+    DataSet = dmDados.QueryVendas
+    Left = 712
+    Top = 320
+  end
+  object DataSource2: TDataSource
+    DataSet = dmDados.QueryCaixa
+    OnDataChange = DataSource2DataChange
+    Left = 776
+    Top = 80
+  end
+end

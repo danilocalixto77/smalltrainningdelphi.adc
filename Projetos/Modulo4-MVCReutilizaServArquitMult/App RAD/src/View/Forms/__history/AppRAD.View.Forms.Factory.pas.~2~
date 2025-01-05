@@ -1,0 +1,37 @@
+unit AppRAD.View.Forms.Factory;
+
+interface
+
+uses
+  AppRAD.View.Forms.Interfaces;
+
+type
+  TViewFormsFactory = class(TInterfacedObject, iViewFactory)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iViewFactory;
+  end;
+
+implementation
+
+{ TViewFormsFactory }
+
+constructor TViewFormsFactory.Create;
+begin
+
+end;
+
+destructor TViewFormsFactory.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TViewFormsFactory.New: iViewFactory;
+begin
+    Result := Self.Create;
+end;
+
+end.

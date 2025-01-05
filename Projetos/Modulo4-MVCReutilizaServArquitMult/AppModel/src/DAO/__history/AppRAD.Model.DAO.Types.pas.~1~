@@ -1,0 +1,7 @@
+unit AppRAD.Model.DAO.Types;
+
+interface
+
+implementation
+
+end.

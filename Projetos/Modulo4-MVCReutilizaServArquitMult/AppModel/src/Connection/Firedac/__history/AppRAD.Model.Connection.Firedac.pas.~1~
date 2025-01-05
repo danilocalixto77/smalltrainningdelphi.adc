@@ -1,0 +1,7 @@
+unit AppRAD.Model.Connection.Firedac;
+
+interface
+
+implementation
+
+end.

@@ -1,0 +1,39 @@
+object dmDados: TdmDados
+  OldCreateOrder = False
+  Height = 430
+  Width = 758
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=D:\Projetos\Componentes\SimpleORM\SimpleORM.git\trunk\S' +
+        'ample\Database\PDVUPDATES.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 72
+    Top = 24
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 184
+    Top = 24
+  end
+  object QueryCaixa: TFDQuery
+    Connection = FDConnection1
+    Left = 78
+    Top = 216
+  end
+  object QueryVendas: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT * FROM VENDA')
+    Left = 182
+    Top = 168
+  end
+  object QueryUsuarios: TFDQuery
+    Connection = FDConnection1
+    Left = 272
+    Top = 232
+  end
+end

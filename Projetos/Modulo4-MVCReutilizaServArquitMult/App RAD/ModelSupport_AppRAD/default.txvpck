@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="10l3uv1bathuv5rrm_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::n1bhm35eehkzrazil_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,112,102" />
+    </reference>
+    <reference referencedUin="design:view:::h8h4s8szxmi80te3r_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="141,1,103,166" />
+      <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.@unitclass" />
+      <reference referencedUin="design:view:::5zd90p31si7xty0n_v" />
+      <reference referencedUin="design:view:::z2xn6h9x50f6sxozf_v" />
+    </reference>
+    <reference referencedUin="design:view:::0t4acipkujkar6qpl_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="22,131,115,151" />
+      <reference referencedUin="delphi:e_class:src:AppRAD:udmDados.TdmDados" />
+      <reference referencedUin="delphi:e_class:src:AppRAD:udmDados.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::xq9awmnsukkei4qft_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="282,1,116,102" />
+    </reference>
+    <reference referencedUin="design:view:::nu7zxa0o2lkjvryzi_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="156,186,106,166" />
+      <reference referencedUin="delphi:e_class:src:AppRAD:uClasses.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AppRAD:uClasses.TOperador" />
+      <reference referencedUin="delphi:e_class:src:AppRAD:uClasses.TProduto" />
+    </reference>
+    <reference referencedUin="design:view:::ux11q39bhlkhaee8n_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,122,106,102" />
+    </reference>
+    <reference referencedUin="design:view:::uvtljkwwtlkj79aem_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,243,118,102" />
+    </reference>
+    <reference referencedUin="design:view:::m06muydlcmkjfa3gl_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,364,100,102" />
+    </reference>
+  </view>
+</nodeSet>

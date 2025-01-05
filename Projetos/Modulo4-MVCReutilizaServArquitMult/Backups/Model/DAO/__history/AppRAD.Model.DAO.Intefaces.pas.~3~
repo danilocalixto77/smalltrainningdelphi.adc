@@ -1,0 +1,23 @@
+unit AppRAD.Model.DAO.Intefaces;
+
+interface
+
+uses
+  Data.DB;
+
+type
+
+  iDAOGeneric<T : class> = interface
+    ['{25965D53-16CD-46EA-91DF-01B129E0F555}']
+    function Insert : iDAOGeneric<T>;
+    function Update : iDAOGeneric<T>;
+    function Find : iDAOGeneric<T>;
+    function Delete : iDAOGeneric<T>;
+    function DataSource ( aValue : TDataSource ) : iDAOGeneric<T>;
+    function Current : T;
+    function NewObject : T;
+  end;
+
+implementation
+
+end.
