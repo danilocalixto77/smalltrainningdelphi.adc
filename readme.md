@@ -364,32 +364,11 @@ Utilizar o RESTRequest4Delphi, caso não tenha na pasta modules na primeira inst
 
     boss install github.com/viniciussanchez/RESTRequest4Delphi
 
+#### 4.14 - Implementando todos os demais métodos do DAO REST
 
+#### 4.15 - Condiderações de tudo do que já vimos e o intuito do treinamento
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Proxima aula...
-
-
-
+#### 4.16 - Fontes
 
 
 ---
