@@ -370,8 +370,31 @@ Utilizar o RESTRequest4Delphi, caso não tenha na pasta modules na primeira inst
 
 #### 4.16 - Fontes
 
+## 5 - Reutilização da Arquitetura em Aplicação FMX
 
----
+#### 5.1 - O que veremos nesse módulo
+
+#### 5.2 - Qunado devemos reescrever os Controllers
+
+#### 5.3 - Criando o Lyout da Aplicação FMX
+
+#### 5.4 - Reutilizando o Model sem usar BPLs
+
+#### 5.5 - Escrevendo os controllers de caixa
+
+#### 5.6 - Criando Controller e Facade para Utilização na View
+
+#### 5.7 - Criando um Componente Visual para Exibição de Dados
+
+#### 5.8 - Criando as Interfaces de Observer para comunicação entre View e Controller
+
+#### 5.9 - Implementando o OBserver para o Titulo da Aplicação
+
+#### 5.10 - Implementando o Observer para o Calculo de totalmente
+
+#### 5.11 - Fontes do Módulo
+
+---  
 ---
 
 ## Atalhos Dephi
