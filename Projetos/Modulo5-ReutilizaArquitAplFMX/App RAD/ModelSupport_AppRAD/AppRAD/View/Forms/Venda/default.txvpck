@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="kpnlg8le8cgllrq2h_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::p7tusva4fdg6nvu3l_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.TformVenderItens" />
+      <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.View.Forms.Venda.VenderItem.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::48lf4mtexdgpnaecr_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.TformAbrirVenda" />
+      <reference referencedUin="delphi:e_class:src:AppRAD:AppRAD.View.Forms.Venda.Abrir.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

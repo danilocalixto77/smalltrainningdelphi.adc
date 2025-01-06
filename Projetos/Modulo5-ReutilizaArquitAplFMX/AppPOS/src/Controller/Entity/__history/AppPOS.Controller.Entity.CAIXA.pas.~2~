@@ -1,0 +1,47 @@
+unit AppPOS.Controller.Entity.CAIXA;
+
+interface
+
+uses
+  AppPOS.Controller.Interfaces,
+  AppRAD.Model.DAO.Intefaces,
+  AppRAD.Model.Entity.CAIXA,
+  FMX.Forms;
+
+type
+  TControllerEntityCaixa = class(TInterfacedObject, iControllerCaixa)
+    private
+      [weak]
+      FParent : iController;
+      FModel : iDAOGeneric<TCAIXA>;
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iControllerCaixa;
+      function AbrirCaixa(Owner : TForm) : iControllerCaixa;
+      function CarregarVendas : iControllerCaixa;
+      function DAO : iDAOGeneric<TCAIXA>;
+      function &End : iController;
+  end;
+
+implementation
+
+{ TControllerEntityCaixa }
+
+constructor TControllerEntityCaixa.Create;
+begin
+
+end;
+
+destructor TControllerEntityCaixa.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TControllerEntityCaixa.New: iControllerCaixa;
+begin
+    Result := Self.Create;
+end;
+
+end.

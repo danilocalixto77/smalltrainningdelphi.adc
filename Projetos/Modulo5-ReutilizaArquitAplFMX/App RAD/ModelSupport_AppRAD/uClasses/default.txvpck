@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="nu7zxa0o2lkjvryzi_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:AppRAD:uClasses.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AppRAD:uClasses.TOperador">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uClasses.TOperador.FGuuid" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uClasses.TOperador.FNome" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uClasses.TOperador.SetGuuid(System.string)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uClasses.TOperador.SetNome(System.string)" />
+      <reference referencedUin="delphi:e_property:src:AppRAD:uClasses.TOperador.Nome" />
+      <reference referencedUin="delphi:e_property:src:AppRAD:uClasses.TOperador.Guuid" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AppRAD:uClasses.TProduto">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uClasses.TProduto.FPreco" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uClasses.TProduto.FDescricao" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uClasses.TProduto.FGuuid" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uClasses.TProduto.SetDescricao(System.string)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uClasses.TProduto.SetGuuid(System.string)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uClasses.TProduto.SetPreco(System.Currency)" />
+      <reference referencedUin="delphi:e_property:src:AppRAD:uClasses.TProduto.Guuid" />
+      <reference referencedUin="delphi:e_property:src:AppRAD:uClasses.TProduto.Descricao" />
+      <reference referencedUin="delphi:e_property:src:AppRAD:uClasses.TProduto.Preco" />
+    </reference>
+  </view>
+</nodeSet>

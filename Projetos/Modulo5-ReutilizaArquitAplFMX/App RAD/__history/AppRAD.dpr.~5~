@@ -1,0 +1,26 @@
+program AppRAD;
+
+uses
+  Vcl.Forms,
+  FormPrincipal in 'FormPrincipal.pas' {Form1},
+  uFormAbrirCaixa in 'uFormAbrirCaixa.pas' {FormAbrirCaixa},
+  udmDados in 'udmDados.pas' {dmDados: TDataModule},
+  uFormOperador in 'uFormOperador.pas' {formOperador},
+  uClasses in 'uClasses.pas',
+  uFormAbrirVenda in 'uFormAbrirVenda.pas' {formAbrirVenda},
+  uFormVenderItem in 'uFormVenderItem.pas' {formVenderItens};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  ReportMemoryLeaksOnShutdown := True;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TdmDados, dmDados);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFormAbrirCaixa, FormAbrirCaixa);
+  Application.CreateForm(TformOperador, formOperador);
+  Application.CreateForm(TformAbrirVenda, formAbrirVenda);
+  Application.CreateForm(TformVenderItens, formVenderItens);
+  Application.Run;
+end.

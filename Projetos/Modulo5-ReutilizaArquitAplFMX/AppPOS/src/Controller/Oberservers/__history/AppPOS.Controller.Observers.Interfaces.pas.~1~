@@ -1,0 +1,7 @@
+unit AppPOS.Controller.Observers.Interfaces;
+
+interface
+
+implementation
+
+end.

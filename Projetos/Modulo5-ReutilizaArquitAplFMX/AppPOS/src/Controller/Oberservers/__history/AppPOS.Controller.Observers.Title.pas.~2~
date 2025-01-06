@@ -1,0 +1,60 @@
+unit AppPOS.Controller.Observers.Title;
+
+interface
+
+uses
+  AppPOS.Controller.Observers.Interfaces,
+  System.Generics.Collections;
+
+type
+  TControllerObserverTitle = class(TInterfacedObject, iControllerObserverTitle)
+    private
+      FList : TList<iControllerSubjectTitle>;
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iControllerObserverTitle;
+      function Registry ( aValue : iControllerSubjectTitle) : iControllerObserverTitle;
+      function UnRegistry ( aValue : iControllerSubjectTitle) : iControllerObserverTitle;
+      function SendMessage ( aValue : String ) : iControllerObserverTitle;
+  end;
+
+implementation
+
+{ TControllerObserverTitle }
+
+constructor TControllerObserverTitle.Create;
+begin
+  FList := TList<iControllerSubjectTitle>.Create;
+end;
+
+destructor TControllerObserverTitle.Destroy;
+begin
+  FList.Free;
+  inherited;
+end;
+
+class function TControllerObserverTitle.New: iControllerObserverTitle;
+begin
+    Result := Self.Create;
+end;
+
+function TControllerObserverTitle.Registry(
+  aValue: iControllerSubjectTitle): iControllerObserverTitle;
+begin
+
+end;
+
+function TControllerObserverTitle.SendMessage(
+  aValue: String): iControllerObserverTitle;
+begin
+
+end;
+
+function TControllerObserverTitle.UnRegistry(
+  aValue: iControllerSubjectTitle): iControllerObserverTitle;
+begin
+
+end;
+
+end.

@@ -1,0 +1,63 @@
+unit AppRAD.Controller;
+
+interface
+
+uses
+  AppRAD.Controller.Interfaces,
+  AppRAD.Model.Entity.CAIXA,
+  AppRAD.Model.Entity.VENDA;
+
+type
+  TController = class(TInterfacedObject, iController)
+    private
+      FCAIXA : iControllerCaixa;
+      FVENDA : iControllerEntity<TVENDA>;
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iController;
+      function CAIXA : iControllerCaixa;
+      function VENDA : iControllerEntity<TVENDA>;
+  end;
+
+implementation
+
+uses
+  AppRAD.Controller.Generic,
+  AppRAD.Controller.Entity.Caixa;
+
+{ TController }
+
+function TController.CAIXA: iControllerCaixa;
+begin
+  if not Assigned(FCAIXA) then
+    FCAIXA := TControllerEntityCaixa.New(Self);
+
+  Result := FCAIXA;
+end;
+
+constructor TController.Create;
+begin
+
+end;
+
+destructor TController.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TController.New: iController;
+begin
+    Result := Self.Create;
+end;
+
+function TController.VENDA: iControllerEntity<TVENDA>;
+begin
+  if not Assigned(FVENDA) then
+    FVENDA := TControllerGeneric<TVENDA>.New(Self);
+
+  Result := FVENDA;
+end;
+
+end.

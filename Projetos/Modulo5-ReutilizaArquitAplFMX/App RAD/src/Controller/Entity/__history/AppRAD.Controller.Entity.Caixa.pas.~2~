@@ -1,0 +1,42 @@
+unit AppRAD.Controller.Entity.Caixa;
+
+interface
+
+uses
+  AppRAD.Controller.Interfaces,
+  AppRAD.Model.DAO.Intefaces,
+  AppRAD.Model.Entity.CAIXA;
+
+type
+  TControllerEntityCaixa = class(TInterfacedObject, iControllerCaixa)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iControllerCaixa;
+      function CarregarVendas : iControllerCaixa;
+      function DAO : iDAOGeneric<TCAIXA>;
+      function &End : iController;
+  end;
+
+implementation
+
+{ TControllerEntityCaixa }
+
+constructor TControllerEntityCaixa.Create;
+begin
+
+end;
+
+destructor TControllerEntityCaixa.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TControllerEntityCaixa.New: iControllerCaixa;
+begin
+    Result := Self.Create;
+end;
+
+end.

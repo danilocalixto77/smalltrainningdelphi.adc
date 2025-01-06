@@ -1,0 +1,169 @@
+object ComponentItemCaixa: TComponentItemCaixa
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 541
+  ClientWidth = 811
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Padding.Left = 5.000000000000000000
+    Padding.Top = 5.000000000000000000
+    Padding.Right = 5.000000000000000000
+    Padding.Bottom = 5.000000000000000000
+    Position.X = 104.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 601.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout2: TLayout
+      Align = Top
+      Position.X = 17.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 579.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object lblID: TLabel
+        Align = Left
+        StyledSettings = [Family]
+        Size.Width = 120.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = '001'
+        TabOrder = 0
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Position.X = 17.000000000000000000
+      Position.Y = 30.000000000000000000
+      Size.Width = 579.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lblDataDesc: TLabel
+        Align = Left
+        StyledSettings = [Family]
+        Size.Width = 65.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'Abertura: '
+        TabOrder = 3
+      end
+      object lblAbertura: TLabel
+        Align = Left
+        StyledSettings = [Family]
+        Position.X = 65.000000000000000000
+        Size.Width = 160.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        Text = '2020-09-17T17:04:48.000Z'
+        TabOrder = 2
+      end
+      object lblFechamento: TLabel
+        Align = Left
+        StyledSettings = [Family]
+        Position.X = 305.000000000000000000
+        Size.Width = 160.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        Text = '2020-09-17T17:04:48.000Z'
+        TabOrder = 0
+      end
+      object Label3: TLabel
+        Align = Left
+        StyledSettings = [Family]
+        Position.X = 225.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'Fechamento:'
+        TabOrder = 1
+      end
+    end
+    object Layout4: TLayout
+      Align = Top
+      Position.X = 17.000000000000000000
+      Position.Y = 49.000000000000000000
+      Size.Width = 579.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label1: TLabel
+        Align = Left
+        StyledSettings = [Family]
+        Size.Width = 97.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'Valor Abertura: '
+        TabOrder = 3
+      end
+      object lblValorAbertura: TLabel
+        Align = Left
+        StyledSettings = [Family]
+        Position.X = 97.000000000000000000
+        Size.Width = 128.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        Text = '0,00'
+        TabOrder = 2
+      end
+      object lblValorFechamento: TLabel
+        Align = Left
+        StyledSettings = [Family]
+        Position.X = 329.000000000000000000
+        Size.Width = 160.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        Text = '0,00'
+        TabOrder = 0
+      end
+      object Label5: TLabel
+        Align = Left
+        StyledSettings = [Family]
+        Position.X = 225.000000000000000000
+        Size.Width = 104.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'Valor Fechamento:'
+        TabOrder = 1
+      end
+    end
+    object Line1: TLine
+      Align = MostLeft
+      LineType = Left
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 12.000000000000000000
+      Size.Height = 71.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 4.000000000000000000
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Contents
+      Opacity = 0.000000000000000000
+      Size.Width = 601.000000000000000000
+      Size.Height = 81.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'SpeedButton1'
+      OnClick = SpeedButton1Click
+    end
+  end
+end

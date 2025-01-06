@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020/11/14 09:13:03.348,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2020/11/14 09:14:00.401,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\View\AppPOS.View.Principal.fmx=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>2020/11/14 09:14:00.401,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\View\AppPOS.View.Principal.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2020/11/14 09:14:05.152,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\AppPOS.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2020/11/14 09:18:17.134,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\Connection\AppRAD.Model.Connection.Interfaces.pas</Transaction>
+    <Transaction>2020/11/14 09:18:33.360,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\Connection\Firedac\AppRAD.Model.Connection.Firedac.pas</Transaction>
+    <Transaction>2020/11/14 09:18:44.611,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\AppModel\src\DAO\AppRAD.Model.DAO.Factory.pas</Transaction>
+    <Transaction>2020/11/14 09:18:44.740,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\AppModel\src\DAO\AppRAD.Model.DAO.Intefaces.pas</Transaction>
+    <Transaction>2020/11/14 09:18:44.765,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\AppModel\src\DAO\AppRAD.Model.DAO.REST.pas</Transaction>
+    <Transaction>2020/11/14 09:18:44.787,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\AppModel\src\DAO\AppRAD.Model.DAO.SQL.pas</Transaction>
+    <Transaction>2020/11/14 09:18:44.805,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\AppModel\src\DAO\AppRAD.Model.DAO.Types.pas</Transaction>
+    <Transaction>2020/11/14 09:18:55.963,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\Entity\AppRAD.Model.Entity.CAIXA.pas</Transaction>
+    <Transaction>2020/11/14 09:18:55.980,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\Entity\AppRAD.Model.Entity.CLIENTE.pas</Transaction>
+    <Transaction>2020/11/14 09:18:55.998,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\Entity\AppRAD.Model.Entity.PRODUTO.pas</Transaction>
+    <Transaction>2020/11/14 09:18:56.015,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\Entity\AppRAD.Model.Entity.USUARIO.pas</Transaction>
+    <Transaction>2020/11/14 09:18:56.055,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\Entity\AppRAD.Model.Entity.VENDA.pas</Transaction>
+    <Transaction>2020/11/14 09:18:56.073,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\Entity\AppRAD.Model.Entity.VENDAITENS.pas</Transaction>
+    <Transaction>2020/11/14 09:19:03.889,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\RTTI\AppModel.RTTI.CustomAttributes.pas</Transaction>
+    <Transaction>2020/11/14 09:19:03.909,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\RTTI\AppModel.RTTI.Utils.pas</Transaction>
+    <Transaction>2020/11/14 09:19:24.095,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\AppModel\src\DAO\AppRAD.Model.DAO.Factory.pas=</Transaction>
+    <Transaction>2020/11/14 09:19:24.121,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\AppModel\src\DAO\AppRAD.Model.DAO.Intefaces.pas=</Transaction>
+    <Transaction>2020/11/14 09:19:24.139,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\AppModel\src\DAO\AppRAD.Model.DAO.REST.pas=</Transaction>
+    <Transaction>2020/11/14 09:19:24.158,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\AppModel\src\DAO\AppRAD.Model.DAO.SQL.pas=</Transaction>
+    <Transaction>2020/11/14 09:19:24.176,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\AppModel\src\DAO\AppRAD.Model.DAO.Types.pas=</Transaction>
+    <Transaction>2020/11/14 09:19:48.243,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\DAO\AppRAD.Model.DAO.Factory.pas</Transaction>
+    <Transaction>2020/11/14 09:19:48.274,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\DAO\AppRAD.Model.DAO.Intefaces.pas</Transaction>
+    <Transaction>2020/11/14 09:19:48.316,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\DAO\AppRAD.Model.DAO.REST.pas</Transaction>
+    <Transaction>2020/11/14 09:19:48.351,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\DAO\AppRAD.Model.DAO.SQL.pas</Transaction>
+    <Transaction>2020/11/14 09:19:48.384,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppModel\src\DAO\AppRAD.Model.DAO.Types.pas</Transaction>
+    <Transaction>2020/11/14 09:21:42.129,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 09:21:59.940,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\Controller\AppPOS.Controller.Interfaces.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 09:25:35.064,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 09:25:51.345,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\Controller\Entity\AppPOS.Controller.Entity.CAIXA.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 09:30:53.425,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 09:31:03.700,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\Controller\AppPOS.Controller.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 09:40:30.032,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit2.pas</Transaction>
+    <Transaction>2020/11/14 09:40:49.075,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\View\Components\AppPOS.View.Components.ItemCaixa.fmx=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit2.fmx</Transaction>
+    <Transaction>2020/11/14 09:40:49.075,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\View\Components\AppPOS.View.Components.ItemCaixa.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit2.pas</Transaction>
+    <Transaction>2020/11/14 09:57:54.402,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 09:58:16.975,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\Controller\Oberservers\AppPOS.Controller.Observers.Interfaces.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 10:02:19.224,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 10:02:30.906,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\Controller\Oberservers\AppPOS.Controller.Observers.Title.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 10:12:26.631,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit2.pas</Transaction>
+    <Transaction>2020/11/14 10:12:52.918,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\View\AppPOS.View.Form2Teste.fmx=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit2.fmx</Transaction>
+    <Transaction>2020/11/14 10:12:52.918,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\View\AppPOS.View.Form2Teste.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit2.pas</Transaction>
+    <Transaction>2020/11/14 10:16:08.385,=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+    <Transaction>2020/11/14 10:16:19.561,D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\src\Controller\Oberservers\AppPOS.Controller.Observers.Total.pas=D:\Projetos\Cursos\SmallTrainning\MVC e Servidor de Aplicacao\Aula 17102020 - Copia\AppPOS\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

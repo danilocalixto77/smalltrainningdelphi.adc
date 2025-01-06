@@ -1,0 +1,7 @@
+unit AppRAD.Model.Connection.Interfaces;
+
+interface
+
+implementation
+
+end.

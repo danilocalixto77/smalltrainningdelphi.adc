@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="n1bhm35eehkzrazil_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:AppRAD:uFormAbrirCaixa.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormAbrirCaixa.@unitclass.FormAbrirCaixa" />
+      <reference referencedUin="delphi:l_ast:src:AppRAD:uFormAbrirCaixa.@unitclass.FormAbrirCaixa" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.ComboBox1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.Label1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.Label2" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.Button1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.DataSource1" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.Edit1" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.ComboBox1Change(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.FGuuidCaixa" />
+      <reference referencedUin="delphi:e_method:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.SetGuuidCaixa(System.string)" />
+      <reference referencedUin="delphi:e_property:src:AppRAD:uFormAbrirCaixa.TFormAbrirCaixa.GuuidCaixa" />
+    </reference>
+  </view>
+</nodeSet>

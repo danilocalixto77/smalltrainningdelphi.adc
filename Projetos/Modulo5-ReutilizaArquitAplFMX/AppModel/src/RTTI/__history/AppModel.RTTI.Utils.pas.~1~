@@ -1,0 +1,7 @@
+unit AppModel.RTTI.Utils;
+
+interface
+
+implementation
+
+end.
