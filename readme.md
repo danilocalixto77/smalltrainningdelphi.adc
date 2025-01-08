@@ -394,6 +394,20 @@ Utilizar o RESTRequest4Delphi, caso não tenha na pasta modules na primeira inst
 
 #### 5.11 - Fontes do Módulo
 
+## 6 - Reutilização da Arquitetura para Aplicação Web React.JS
+
+#### 6.1 Baixando e Instalando o Template React
+
+#### 6.2 Instalando o Axios e Consumindo o Servidor Horse
+
+#### 6.3 Instalando o CORS e Consumindo os Dados do Servidor
+
+#### 6.4 Exeibindo os Dados na Web com React
+
+
+
+
+
 ---  
 ---
 
